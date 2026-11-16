@@ -1,0 +1,37 @@
+{
+  "name": "elimuar",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ElimuAR: AR science activities for Tanzanian secondary schools. Web portal, API and the Unity phone app.",
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@elimuar/api & npm run dev --workspace=@elimuar/web",
+    "dev:api": "npm run dev --workspace=@elimuar/api",
+    "dev:web": "npm run dev --workspace=@elimuar/web",
+    "db:up": "docker compose up -d mysql",
+    "db:down": "docker compose down",
+    "db:local:start": "bash scripts/mysql-local.sh start",
+    "db:local:stop": "bash scripts/mysql-local.sh stop",
+    "db:local:status": "bash scripts/mysql-local.sh status",
+    "db:local:reset": "bash scripts/mysql-local.sh reset",
+    "db:migrate": "npm run db:migrate --workspace=@elimuar/api",
+    "db:seed": "npm run db:seed --workspace=@elimuar/api",
+    "db:seed:ar-activities": "npm run ar-activities:seed --workspace=@elimuar/api",
+    "db:reset": "npm run db:reset --workspace=@elimuar/api",
+    "ar-activities:export": "npm run ar-activities:export --workspace=@elimuar/api",
+    "mobile:setup": "node scripts/unity.mjs -batchmode -nographics -projectPath apps/mobile -buildTarget Android -executeMethod ElimuAR.Editor.ElimuBuild.Setup -logFile apps/mobile/Logs/setup.log -quit",
+    "mobile:build": "node scripts/unity.mjs -batchmode -nographics -projectPath apps/mobile -buildTarget Android -executeMethod ElimuAR.Editor.ElimuBuild.BuildAndroid -logFile apps/mobile/Logs/build.log -quit",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build --workspace=@elimuar/shared && npm run build --workspace=@elimuar/api && npm run build --workspace=@elimuar/web"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.43.1"
+  }
+}

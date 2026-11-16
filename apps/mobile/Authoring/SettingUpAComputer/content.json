@@ -1,0 +1,63 @@
+{
+  "activityKey": "settingupacomputer",
+  "title": "Setting Up a Computer",
+  "subject": "Computer Science",
+  "gradeLevel": "Form 1",
+  "category": "ict",
+  "tags": ["Computer Science", "Hardware", "Computer Studies"],
+  "description": "In this activity, you will look inside a computer, fit its main parts, and connect its devices to the right ports.\n\n<b>Tip:</b> Walk around the computer to see its back, where the cables connect.",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "-14%",
+  "audioPrefix": "ICT_Setup",
+  "observe": {
+    "description": "Observe the parts of a computer system, what each one does, and how they connect.",
+    "captions": [
+      { "cue": "intro", "text": "A computer system is made of parts that work together. Some parts take data in, some process it, and some give information out." },
+      { "cue": "monitor", "text": "The monitor is an output device. It shows us text, pictures, and video." },
+      { "cue": "input", "text": "The keyboard and the mouse are input devices. We use them to type, to point, and to click." },
+      { "cue": "unit", "text": "The system unit holds the parts that process and store data. Let's lift off its cover and look inside." },
+      { "cue": "board", "text": "The large circuit board is the motherboard. Every part connects to it, so the parts can share power and data." },
+      { "cue": "cpu", "text": "This is the central processing unit, or CPU. It carries out instructions and does calculations. It is the brain of the computer." },
+      { "cue": "ram", "text": "These are the memory modules, called RAM. RAM holds the programs and data you are using right now. When the power goes off, RAM is emptied." },
+      { "cue": "ssd", "text": "The storage drive keeps your files and programs, even when the computer is switched off." },
+      { "cue": "psu", "text": "The power supply unit changes electricity from the wall socket into the power that the parts need." },
+      { "cue": "back", "text": "Now let's turn the system unit around. At the back are the ports, where the cables connect." },
+      { "cue": "ports", "text": "Each kind of cable has its own shape of port. A plug only fits the port that matches it, and only one way round." },
+      { "cue": "connect", "text": "The monitor cable goes into the HDMI port. The keyboard and mouse go into USB ports. The network cable goes into the LAN port." },
+      { "cue": "power", "text": "Connect every cable first, and switch on the power last. Before you open a computer, always switch it off and unplug it." }
+    ]
+  },
+  "explore": {
+    "description": "Fit the parts inside the system unit, then connect each device to its port. Hold a part to hear how to handle it."
+  },
+  "exploreSteps": [
+    { "id": "Build", "title": "Build", "description": "Fit the <b>CPU</b>, the <b>RAM</b>, and the <b>storage drive</b> into the motherboard. Touch and hold a part to hear how to handle it." },
+    { "id": "Connect", "title": "Connect", "description": "Walk to the back of the system unit. Drag each plug to the port that matches it. A plug only fits its own port." }
+  ],
+  "parts": [
+    { "key": "CPU", "step": "Build", "name": "CPU", "text": "the processor. Hold it by its edges. Line up the gold triangle with the triangle on the socket, then lower it in gently. Never press on the pins." },
+    { "key": "RAM", "step": "Build", "name": "RAM", "text": "the computer's working memory. Hold it by its edges. Line up the notch with the key in the slot, then press down firmly until both clips click." },
+    { "key": "SSD", "step": "Build", "name": "Storage drive", "text": "an M.2 solid state drive. Slide it into the M.2 slot at a small angle, then press it down and fix it with its screw." },
+    { "key": "HDMI", "step": "Connect", "name": "HDMI cable", "text": "it carries picture and sound from the computer to the monitor. It has a flat plug with two slanted corners, so it fits only one way." },
+    { "key": "KeyboardUSB", "step": "Connect", "name": "Keyboard USB plug", "text": "the keyboard's cable ends in a flat, rectangular USB plug. Push it into any USB port, with the plastic tongue facing the right way." },
+    { "key": "MouseUSB", "step": "Connect", "name": "Mouse USB plug", "text": "the mouse also uses a USB plug. It goes into another USB port, next to the keyboard." },
+    { "key": "Ethernet", "step": "Connect", "name": "Network cable", "text": "an Ethernet cable connects the computer to the school network. Its plug clicks into the LAN port. Press the clip to take it out." },
+    { "key": "Power", "step": "Connect", "name": "Power cable", "text": "it brings electricity from the wall socket to the power supply unit. Connect it last, after every other cable." }
+  ],
+  "questions": {
+    "maxSteps": 5,
+    "items": [
+      { "q": "Which device shows the computer's output as text, pictures, and video?", "answers": ["Monitor", "Keyboard", "Mouse", "System unit"] },
+      { "q": "Which part carries out instructions and does calculations?", "answers": ["CPU", "RAM", "Storage drive", "Power supply unit"] },
+      { "q": "What happens to the data in RAM when the computer is switched off?", "answers": ["It is lost", "It is saved to the CPU", "It is printed", "It stays until you delete it"] },
+      { "q": "Which part keeps your files even when the computer is switched off?", "answers": ["Storage drive", "RAM", "CPU", "Monitor"] },
+      { "q": "Which port should the monitor's HDMI cable go into?", "answers": ["The HDMI port", "A USB port", "The LAN port", "The audio port"] },
+      { "q": "The keyboard and the mouse are both...", "answers": ["Input devices", "Output devices", "Storage devices", "Processing devices"] },
+      { "q": "What must you do before you open a computer's system unit?", "answers": ["Switch it off and unplug it", "Turn up the volume", "Connect the mouse", "Open a program"] },
+      { "q": "How should you hold a RAM module?", "answers": ["By its edges", "By its gold contacts", "By its chips", "With wet hands"] },
+      { "q": "Which cable connects a computer to the school network?", "answers": ["Ethernet cable", "HDMI cable", "Power cable", "USB cable"] },
+      { "q": "When you set up a computer, what should you do last?", "answers": ["Switch on the power", "Connect the keyboard", "Connect the monitor", "Connect the network cable"] }
+    ]
+  },
+  "summary": "You have now completed this activity on <b>Setting Up a Computer</b>! You can name the parts of a computer, fit them, and connect its devices. Try it again, or try one of our other activities!"
+}

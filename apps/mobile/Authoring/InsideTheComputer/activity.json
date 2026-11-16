@@ -1,0 +1,972 @@
+{
+  "format": "elimuar-activity/1",
+  "scenePath": "Assets/ElimuARContent/InsideTheComputer/insidethecomputer.unity",
+  "rootPath": "InsideTheComputer_Root",
+  "settings": {
+    "occlusion": false,
+    "showDesk": true,
+    "deskOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "sections": [
+    {
+      "kind": "observe",
+      "section": 11,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "ComputerObserve",
+          "kind": "step",
+          "title": "Observe",
+          "description": "Observe the parts inside a computer's system unit and what each one does.",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": "ICT_Computer_Observe",
+          "captions": [
+            {
+              "text": "A computer is made of parts that work together. They take in data, process it, store it, and give out information.",
+              "duration": 9.954
+            },
+            {
+              "text": "Most of these parts live inside the system unit. Let's take off the side panel and look inside.",
+              "duration": 8.322
+            },
+            {
+              "text": "The large circuit board at the back is the motherboard. Every other part connects to it, so they can share power and data.",
+              "duration": 9.402
+            },
+            {
+              "text": "In the middle is the central processing unit, or CPU. It carries out instructions and does calculations. It is the brain of the computer.",
+              "duration": 11.754
+            },
+            {
+              "text": "The CPU gets hot as it works, so a heat sink and fan sit on top of it to carry the heat away.",
+              "duration": 7.53
+            },
+            {
+              "text": "Beside the CPU are the memory modules, called RAM. RAM holds the programs and data the computer is using right now.",
+              "duration": 9.786
+            },
+            {
+              "text": "RAM is volatile. When the power goes off, everything in it is lost.",
+              "duration": 6.786
+            },
+            {
+              "text": "Programs and files are kept for a long time on drives, like this solid-state drive and this hard disk drive. They keep their data even without power.",
+              "duration": 11.562
+            },
+            {
+              "text": "The graphics card turns data into the pictures you see on the monitor.",
+              "duration": 5.634
+            },
+            {
+              "text": "The power supply unit changes electricity from the wall socket into the steady, low voltages the parts need.",
+              "duration": 7.818
+            },
+            {
+              "text": "Fans keep the air moving through the case, so all the parts stay cool.",
+              "duration": 5.85
+            },
+            {
+              "text": "Together, these parts let the computer do its work. Now it is your turn to take them out.",
+              "duration": 8.034
+            },
+            {
+              "text": "Select Next to continue.",
+              "duration": -1
+            }
+          ],
+          "buttons": [
+            {
+              "id": "observe_replay",
+              "text": "Replay",
+              "active": true,
+              "enabled": true
+            }
+          ],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [
+            "ComputerObserve"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "explore",
+      "section": 12,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "ComputerExplore",
+          "kind": "step",
+          "title": "Explore",
+          "description": "Take the system unit apart. Drag each part to its tray to learn what it does.",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [
+            {
+              "id": "explore_reset",
+              "text": "Reset",
+              "active": true,
+              "enabled": true
+            }
+          ],
+          "confirmMoveOn": true,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to show what you know?",
+            "confirm": "I'm Ready!",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [
+            "ComputerExplore3D"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "question",
+      "section": 13,
+      "randomize": true,
+      "maxSteps": 5,
+      "steps": [
+        {
+          "id": "ComputerEvaluate01",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which part carries out instructions and does calculations?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "CPU",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "RAM",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Power supply unit",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Hard disk drive",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate02",
+          "kind": "question",
+          "title": "Question",
+          "description": "What happens to the data in RAM when the computer is switched off?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "It is lost",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It moves to the CPU",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It is printed",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It stays until it is deleted",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate03",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which part keeps your files when the computer is turned off?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Hard disk drive",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "RAM",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "CPU cooler",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Graphics card",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate04",
+          "kind": "question",
+          "title": "Question",
+          "description": "What is the main job of the power supply unit?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "To change mains electricity into low voltages for the parts",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To store programs",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To show pictures on the monitor",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To carry out calculations",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate05",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which board connects all the parts so they can share power and data?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Motherboard",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Graphics card",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "RAM module",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Solid-state drive",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate06",
+          "kind": "question",
+          "title": "Question",
+          "description": "Why does the CPU have a heat sink and fan on top of it?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "To carry heat away so it does not overheat",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To make the monitor brighter",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To store data",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To supply power",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate07",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which part turns data into the images shown on the monitor?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Graphics card",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Power supply unit",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Hard disk drive",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Case fan",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate08",
+          "kind": "question",
+          "title": "Question",
+          "description": "RAM is called volatile memory because...",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "it needs power to keep its data",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "it is very fast",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "it sits beside the CPU",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "it can be taken out",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate09",
+          "kind": "question",
+          "title": "Question",
+          "description": "How is a solid-state drive different from a hard disk drive?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "It has no moving parts",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It loses its data without power",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It is a kind of RAM",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It cools the CPU",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "ComputerEvaluate10",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which part is called the brain of the computer?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "CPU",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Motherboard",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Case fan",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Power supply unit",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "summary",
+      "section": 14,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "ComputerResults",
+          "kind": "step",
+          "title": "Summary",
+          "description": "You have now completed this activity on <b>Inside the Computer</b>!  Please feel free to take this activity again or try out one of our other activities!",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": []
+        }
+      ]
+    }
+  ],
+  "dragItems": [
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/Cooler",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/Cooler",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Cooler/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_Cooler",
+      "holdCaption": "<size=+10><b>CPU cooler: </b></size><br>a heat sink and fan that carry heat away from the processor, so it does not overheat.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/CPU",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/CPU",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_CPU/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_CPU",
+      "holdCaption": "<size=+10><b>CPU: </b></size><br>the central processing unit. It carries out instructions and does calculations: the brain of the computer.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/RAM",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/RAM",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_RAM/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_RAM",
+      "holdCaption": "<size=+10><b>RAM: </b></size><br>main memory. It holds the programs and data in use right now, and is cleared when the power goes off.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/GPU",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/GPU",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_GPU/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_GPU",
+      "holdCaption": "<size=+10><b>Graphics card: </b></size><br>turns data into the images and video shown on the monitor.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/PSU",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/PSU",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_PSU/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_PSU",
+      "holdCaption": "<size=+10><b>Power supply unit: </b></size><br>changes mains electricity from the wall into the low, steady voltages the parts need.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/SSD",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/SSD",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_SSD/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_SSD",
+      "holdCaption": "<size=+10><b>Solid-state drive: </b></size><br>stores programs and files permanently in flash memory, with no moving parts.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/HDD",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/HDD",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_HDD/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_HDD",
+      "holdCaption": "<size=+10><b>Hard disk drive: </b></size><br>stores programs and files permanently on spinning magnetic disks.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/Fan",
+      "isDraggable": true,
+      "dragPath": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/Fan",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Fan/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Computer_Explore_Fan",
+      "holdCaption": "<size=+10><b>Case fan: </b></size><br>pulls cool air into the case and pushes hot air out.",
+      "holdCaptionMinimumDuration": 0
+    }
+  ],
+  "scienceObjects": [
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/Cooler",
+      "name": "CPU cooler",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Cooler",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/CPU",
+      "name": "CPU",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_CPU",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/RAM",
+      "name": "RAM",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_RAM",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/GPU",
+      "name": "Graphics card",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_GPU",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/PSU",
+      "name": "Power supply unit",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_PSU",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/SSD",
+      "name": "Solid-state drive",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_SSD",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/HDD",
+      "name": "Hard disk drive",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_HDD",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/SystemUnit/Fan",
+      "name": "Case fan",
+      "trayPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Fan",
+      "hasTransitionAnimation": false
+    }
+  ],
+  "trays": [
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Cooler",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Cooler/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Cooler/Target"
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_CPU",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_CPU/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_CPU/Target"
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_RAM",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_RAM/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_RAM/Target"
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_GPU",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_GPU/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_GPU/Target"
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_PSU",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_PSU/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_PSU/Target"
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_SSD",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_SSD/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_SSD/Target"
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_HDD",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_HDD/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_HDD/Target"
+    },
+    {
+      "path": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Fan",
+      "labelPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Fan/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InsideTheComputer_Root/ComputerExplore3D/Trays/ScienceTray_Fan/Target"
+    }
+  ],
+  "faders": [],
+  "intro": {
+    "path": "InsideTheComputer_Root/ComputerObserve",
+    "replayId": "observe_replay"
+  },
+  "animator": {
+    "path": "InsideTheComputer_Root/ComputerObserve",
+    "startState": ""
+  },
+  "exploreRoots": [
+    "InsideTheComputer_Root/ComputerExplore3D"
+  ],
+  "audioClips": [
+    "ICT_Computer_Explore_Cooler",
+    "ICT_Computer_Explore_CPU",
+    "ICT_Computer_Explore_Fan",
+    "ICT_Computer_Explore_GPU",
+    "ICT_Computer_Explore_HDD",
+    "ICT_Computer_Explore_PSU",
+    "ICT_Computer_Explore_RAM",
+    "ICT_Computer_Explore_SSD",
+    "ICT_Computer_Observe"
+  ],
+  "animationClips": [
+    "ComputerObserve"
+  ]
+}

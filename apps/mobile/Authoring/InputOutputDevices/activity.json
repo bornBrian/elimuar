@@ -1,0 +1,972 @@
+{
+  "format": "elimuar-activity/1",
+  "scenePath": "Assets/ElimuARContent/InputOutputDevices/inputoutputdevices.unity",
+  "rootPath": "InputOutputDevices_Root",
+  "settings": {
+    "occlusion": false,
+    "showDesk": true,
+    "deskOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "sections": [
+    {
+      "kind": "observe",
+      "section": 11,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "InputOutputDevicesObserve",
+          "kind": "step",
+          "title": "Observe",
+          "description": "Observe how data goes into a computer, and how information comes out.",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": "ICT_Devices_Observe",
+          "captions": [
+            {
+              "text": "A computer works in three stages: input, processing and output.",
+              "duration": 6.21
+            },
+            {
+              "text": "Input devices send data into the computer. They are how we give the computer instructions.",
+              "duration": 8.418
+            },
+            {
+              "text": "The keyboard lets us type letters, numbers and commands.",
+              "duration": 5.13
+            },
+            {
+              "text": "The mouse moves the pointer on the screen, so we can point, click and select.",
+              "duration": 6.282
+            },
+            {
+              "text": "A microphone turns our voice and other sounds into data the computer can store.",
+              "duration": 6.018
+            },
+            {
+              "text": "A webcam captures pictures and video, for example in an online class.",
+              "duration": 6.042
+            },
+            {
+              "text": "Inside the system unit, the CPU processes the data and turns it into information.",
+              "duration": 6.834
+            },
+            {
+              "text": "Output devices give that information back to us, in a form we can see, hear or hold.",
+              "duration": 7.434
+            },
+            {
+              "text": "The monitor shows text, pictures and video. It is soft copy output.",
+              "duration": 7.218
+            },
+            {
+              "text": "The printer puts information onto paper. This is called hard copy.",
+              "duration": 6.618
+            },
+            {
+              "text": "Speakers play sound, like music and voices.",
+              "duration": 4.698
+            },
+            {
+              "text": "Input goes in, processing happens inside, and output comes out. Now sort each device yourself.",
+              "duration": 9.45
+            },
+            {
+              "text": "Select Next to continue.",
+              "duration": -1
+            }
+          ],
+          "buttons": [
+            {
+              "id": "observe_replay",
+              "text": "Replay",
+              "active": true,
+              "enabled": true
+            }
+          ],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [
+            "InputOutputDevicesObserve"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "explore",
+      "section": 12,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "InputOutputDevicesExplore",
+          "kind": "step",
+          "title": "Explore",
+          "description": "Sort the devices. Drag each one to its tray under INPUT or OUTPUT, and listen to what it does.",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [
+            {
+              "id": "explore_reset",
+              "text": "Reset",
+              "active": true,
+              "enabled": true
+            }
+          ],
+          "confirmMoveOn": true,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to show what you know?",
+            "confirm": "I'm Ready!",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [
+            "InputOutputDevicesExplore3D"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "question",
+      "section": 13,
+      "randomize": true,
+      "maxSteps": 5,
+      "steps": [
+        {
+          "id": "InputOutputDevicesEvaluate01",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which of these is an input device?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Keyboard",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Monitor",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Printer",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Speakers",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate02",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which device gives hard copy output?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Printer",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Monitor",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Projector",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Webcam",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate03",
+          "kind": "question",
+          "title": "Question",
+          "description": "What is the job of an output device?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "To give information from the computer to the user",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To put data into the computer",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To store programs permanently",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "To process instructions",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate04",
+          "kind": "question",
+          "title": "Question",
+          "description": "A learner records her voice for a project. Which device does she use?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Microphone",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Speakers",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Printer",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Monitor",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate05",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which device moves the pointer on the screen?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Mouse",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Speakers",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Projector",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Printer",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate06",
+          "kind": "question",
+          "title": "Question",
+          "description": "Information shown on a monitor is called...",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "soft copy",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "hard copy",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "input",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "storage",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate07",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which of these is an output device?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Speakers",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Microphone",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Webcam",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Keyboard",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate08",
+          "kind": "question",
+          "title": "Question",
+          "description": "What are the three stages of how a computer works?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Input, processing and output",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Typing, clicking and printing",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Saving, opening and closing",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Monitor, keyboard and mouse",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate09",
+          "kind": "question",
+          "title": "Question",
+          "description": "A teacher wants the whole class to see her screen on the wall. Which device helps her?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Projector",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Webcam",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Mouse",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Microphone",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "InputOutputDevicesEvaluate10",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which part processes data into information?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "CPU",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Keyboard",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Printer",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Speakers",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "summary",
+      "section": 14,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "InputOutputDevicesResults",
+          "kind": "step",
+          "title": "Summary",
+          "description": "You have now completed this activity on <b>Input and Output Devices</b>!  Please feel free to take this activity again or try out one of our other activities!",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": []
+        }
+      ]
+    }
+  ],
+  "dragItems": [
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Keyboard",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Keyboard",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Keyboard/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Keyboard",
+      "holdCaption": "<size=+10><b>Keyboard: </b></size><br>an input device. We press its keys to type letters, numbers and commands.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Mouse",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Mouse",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Mouse/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Mouse",
+      "holdCaption": "<size=+10><b>Mouse: </b></size><br>an input device. It moves the pointer so we can point, click and drag.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Microphone",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Microphone",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Microphone/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Microphone",
+      "holdCaption": "<size=+10><b>Microphone: </b></size><br>an input device. It turns sound, like our voice, into data.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Webcam",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Webcam",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Webcam/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Webcam",
+      "holdCaption": "<size=+10><b>Webcam: </b></size><br>an input device. It captures pictures and video.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Monitor",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Monitor",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Monitor/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Monitor",
+      "holdCaption": "<size=+10><b>Monitor: </b></size><br>an output device. It shows text, pictures and video on its screen: soft copy.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Printer",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Printer",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Printer/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Printer",
+      "holdCaption": "<size=+10><b>Printer: </b></size><br>an output device. It prints information onto paper: hard copy.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Speakers",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Speakers",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Speakers/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Speakers",
+      "holdCaption": "<size=+10><b>Speakers: </b></size><br>an output device. They play sound, like music and voices.",
+      "holdCaptionMinimumDuration": 0
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Projector",
+      "isDraggable": true,
+      "dragPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Projector",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Projector/Target",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.3,
+      "targetTweenDuration": 0.35,
+      "holdClip": "ICT_Devices_Explore_Projector",
+      "holdCaption": "<size=+10><b>Projector: </b></size><br>an output device. It shows the screen as a large picture on a wall, so a whole class can see.",
+      "holdCaptionMinimumDuration": 0
+    }
+  ],
+  "scienceObjects": [
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Keyboard",
+      "name": "Keyboard",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Keyboard",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Mouse",
+      "name": "Mouse",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Mouse",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Microphone",
+      "name": "Microphone",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Microphone",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Webcam",
+      "name": "Webcam",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Webcam",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Monitor",
+      "name": "Monitor",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Monitor",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Printer",
+      "name": "Printer",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Printer",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Speakers",
+      "name": "Speakers",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Speakers",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Projector",
+      "name": "Projector",
+      "trayPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Projector",
+      "hasTransitionAnimation": false
+    }
+  ],
+  "trays": [
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Keyboard",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Keyboard/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Keyboard/Target"
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Mouse",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Mouse/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Mouse/Target"
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Microphone",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Microphone/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Microphone/Target"
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Webcam",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Webcam/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Webcam/Target"
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Monitor",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Monitor/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Monitor/Target"
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Printer",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Printer/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Printer/Target"
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Speakers",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Speakers/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Speakers/Target"
+    },
+    {
+      "path": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Projector",
+      "labelPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Projector/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "InputOutputDevices_Root/InputOutputDevicesExplore3D/Trays/ScienceTray_Projector/Target"
+    }
+  ],
+  "faders": [],
+  "intro": {
+    "path": "InputOutputDevices_Root/InputOutputDevicesObserve",
+    "replayId": "observe_replay"
+  },
+  "animator": {
+    "path": "InputOutputDevices_Root/InputOutputDevicesObserve",
+    "startState": ""
+  },
+  "exploreRoots": [
+    "InputOutputDevices_Root/InputOutputDevicesExplore3D"
+  ],
+  "audioClips": [
+    "ICT_Devices_Explore_Keyboard",
+    "ICT_Devices_Explore_Microphone",
+    "ICT_Devices_Explore_Monitor",
+    "ICT_Devices_Explore_Mouse",
+    "ICT_Devices_Explore_Printer",
+    "ICT_Devices_Explore_Projector",
+    "ICT_Devices_Explore_Speakers",
+    "ICT_Devices_Explore_Webcam",
+    "ICT_Devices_Observe"
+  ],
+  "animationClips": [
+    "InputOutputDevicesObserve"
+  ]
+}

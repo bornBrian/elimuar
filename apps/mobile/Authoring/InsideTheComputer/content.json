@@ -1,0 +1,57 @@
+{
+  "activityKey": "insidethecomputer",
+  "title": "Inside the Computer",
+  "subject": "Computer Science",
+  "gradeLevel": "Form 1",
+  "category": "ict",
+  "tags": ["Computer Science", "Hardware"],
+  "description": "In this activity, you will open a computer's system unit and explore the parts inside it.\n\n<b>Tip:</b> Move the device around to see the parts from different angles.",
+  "voice": "en-TZ-ImaniNeural",
+  "rate": "-6%",
+  "observe": {
+    "description": "Observe the parts inside a computer's system unit and what each one does.",
+    "captions": [
+      { "cue": "intro", "text": "A computer is made of parts that work together. They take in data, process it, store it, and give out information." },
+      { "cue": "open", "text": "Most of these parts live inside the system unit. Let's take off the side panel and look inside." },
+      { "cue": "motherboard", "text": "The large circuit board at the back is the motherboard. Every other part connects to it, so they can share power and data." },
+      { "cue": "cpu", "text": "In the middle is the central processing unit, or CPU. It carries out instructions and does calculations. It is the brain of the computer." },
+      { "cue": "cooler", "text": "The CPU gets hot as it works, so a heat sink and fan sit on top of it to carry the heat away." },
+      { "cue": "ram", "text": "Beside the CPU are the memory modules, called RAM. RAM holds the programs and data the computer is using right now." },
+      { "cue": "volatile", "text": "RAM is volatile. When the power goes off, everything in it is lost." },
+      { "cue": "storage", "text": "Programs and files are kept for a long time on drives, like this solid-state drive and this hard disk drive. They keep their data even without power." },
+      { "cue": "gpu", "text": "The graphics card turns data into the pictures you see on the monitor." },
+      { "cue": "psu", "text": "The power supply unit changes electricity from the wall socket into the steady, low voltages the parts need." },
+      { "cue": "fan", "text": "Fans keep the air moving through the case, so all the parts stay cool." },
+      { "cue": "outro", "text": "Together, these parts let the computer do its work. Now it is your turn to take them out." }
+    ]
+  },
+  "explore": {
+    "description": "Take the system unit apart. Drag each part to its tray to learn what it does."
+  },
+  "parts": [
+    { "key": "Cooler", "name": "CPU cooler", "text": "a heat sink and fan that carry heat away from the processor, so it does not overheat." },
+    { "key": "CPU", "name": "CPU", "text": "the central processing unit. It carries out instructions and does calculations: the brain of the computer." },
+    { "key": "RAM", "name": "RAM", "text": "main memory. It holds the programs and data in use right now, and is cleared when the power goes off." },
+    { "key": "GPU", "name": "Graphics card", "text": "turns data into the images and video shown on the monitor." },
+    { "key": "PSU", "name": "Power supply unit", "text": "changes mains electricity from the wall into the low, steady voltages the parts need." },
+    { "key": "SSD", "name": "Solid-state drive", "text": "stores programs and files permanently in flash memory, with no moving parts." },
+    { "key": "HDD", "name": "Hard disk drive", "text": "stores programs and files permanently on spinning magnetic disks." },
+    { "key": "Fan", "name": "Case fan", "text": "pulls cool air into the case and pushes hot air out." }
+  ],
+  "questions": {
+    "maxSteps": 5,
+    "items": [
+      { "q": "Which part carries out instructions and does calculations?", "answers": ["CPU", "RAM", "Power supply unit", "Hard disk drive"] },
+      { "q": "What happens to the data in RAM when the computer is switched off?", "answers": ["It is lost", "It moves to the CPU", "It is printed", "It stays until it is deleted"] },
+      { "q": "Which part keeps your files when the computer is turned off?", "answers": ["Hard disk drive", "RAM", "CPU cooler", "Graphics card"] },
+      { "q": "What is the main job of the power supply unit?", "answers": ["To change mains electricity into low voltages for the parts", "To store programs", "To show pictures on the monitor", "To carry out calculations"] },
+      { "q": "Which board connects all the parts so they can share power and data?", "answers": ["Motherboard", "Graphics card", "RAM module", "Solid-state drive"] },
+      { "q": "Why does the CPU have a heat sink and fan on top of it?", "answers": ["To carry heat away so it does not overheat", "To make the monitor brighter", "To store data", "To supply power"] },
+      { "q": "Which part turns data into the images shown on the monitor?", "answers": ["Graphics card", "Power supply unit", "Hard disk drive", "Case fan"] },
+      { "q": "RAM is called volatile memory because...", "answers": ["it needs power to keep its data", "it is very fast", "it sits beside the CPU", "it can be taken out"] },
+      { "q": "How is a solid-state drive different from a hard disk drive?", "answers": ["It has no moving parts", "It loses its data without power", "It is a kind of RAM", "It cools the CPU"] },
+      { "q": "Which part is called the brain of the computer?", "answers": ["CPU", "Motherboard", "Case fan", "Power supply unit"] }
+    ]
+  },
+  "summary": "You have now completed this activity on <b>Inside the Computer</b>!  Please feel free to take this activity again or try out one of our other activities!"
+}

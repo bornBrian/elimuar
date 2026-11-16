@@ -1,0 +1,112 @@
+[
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [],
+  "renderQueue": -1,
+  "surface": 0.0,
+  "count": 49
+ },
+ {
+  "shader": "TextMeshPro/Distance Field",
+  "keywords": [],
+  "renderQueue": -1,
+  "surface": 0,
+  "count": 3
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_SURFACE_TYPE_TRANSPARENT"
+  ],
+  "renderQueue": 3000,
+  "surface": 1.0,
+  "count": 5
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_RECEIVE_SHADOWS_OFF"
+  ],
+  "renderQueue": -1,
+  "surface": 0.0,
+  "count": 3
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_SPECULAR_SETUP",
+   "_SURFACE_TYPE_TRANSPARENT"
+  ],
+  "renderQueue": 3000,
+  "surface": 1.0,
+  "count": 2
+ },
+ {
+  "shader": "Universal Render Pipeline/Simple Lit",
+  "keywords": [],
+  "renderQueue": -1,
+  "surface": 0.0,
+  "count": 3
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_NORMALMAP",
+   "_OCCLUSIONMAP"
+  ],
+  "renderQueue": 2000,
+  "surface": 0.0,
+  "count": 3
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_ALPHAPREMULTIPLY_ON",
+   "_SPECULAR_SETUP",
+   "_SURFACE_TYPE_TRANSPARENT"
+  ],
+  "renderQueue": 3000,
+  "surface": 1.0,
+  "count": 2
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_ALPHAPREMULTIPLY_ON",
+   "_EMISSION",
+   "_SPECULARHIGHLIGHTS_OFF",
+   "_SPECULAR_SETUP",
+   "_SURFACE_TYPE_TRANSPARENT"
+  ],
+  "renderQueue": 3000,
+  "surface": 1.0,
+  "count": 1
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_SPECULAR_SETUP"
+  ],
+  "renderQueue": 2000,
+  "surface": 0.0,
+  "count": 1
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_DETAIL_MULX2"
+  ],
+  "renderQueue": 2000,
+  "surface": 0.0,
+  "count": 1
+ },
+ {
+  "shader": "Universal Render Pipeline/Lit",
+  "keywords": [
+   "_ALPHATEST_ON"
+  ],
+  "renderQueue": 2450,
+  "surface": 0.0,
+  "count": 1
+ }
+]

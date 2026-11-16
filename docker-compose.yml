@@ -1,0 +1,27 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: elimuar-mysql
+    restart: unless-stopped
+    environment:
+      # Local development defaults only. Override both (or set MYSQL_PASSWORD in a
+      # root .env) for anything that is not a throwaway machine.
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-elimuar_root_dev}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-elimuar}
+      MYSQL_USER: ${MYSQL_USER:-elimuar}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-elimuar_dev}
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    ports:
+      - "3306:3306"
+    volumes:
+      - elimuar-mysqldata:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uelimuar", "-p${MYSQL_PASSWORD:-elimuar_dev}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  elimuar-mysqldata:

@@ -1,0 +1,40 @@
+{
+  "name": "@elimuar/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "drizzle-kit push",
+    "db:upgrade": "node scripts/apply-migration.mjs migrations/0026_class_subjects_and_runs.sql",
+    "db:seed": "tsx src/db/seed.ts",
+    "db:reset": "npm run db:migrate && npm run db:seed && npm run ar-activities:seed",
+    "ar-activities:seed": "tsx scripts/seed-ar-activities.ts",
+    "ar-activities:export": "tsx scripts/export-ar-activities.ts"
+  },
+  "dependencies": {
+    "@elimuar/shared": "*",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.2",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.24.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.7.5",
+    "drizzle-kit": "^0.26.2",
+    "meshoptimizer": "^1.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}

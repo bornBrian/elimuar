@@ -1,0 +1,59 @@
+{
+  "activityKey": "inputoutputdevices",
+  "title": "Input and Output Devices",
+  "subject": "Computer Science",
+  "gradeLevel": "Form 1",
+  "category": "ict",
+  "tags": ["Computer Science", "Hardware"],
+  "description": "In this activity, you will explore the devices we use to put data into a computer and to get information out of it.\n\n<b>Tip:</b> Walk around the desk to see each device from different angles.",
+  "voice": "en-TZ-ImaniNeural",
+  "rate": "-6%",
+  "audioPrefix": "ICT_Devices",
+  "observe": {
+    "description": "Observe how data goes into a computer, and how information comes out.",
+    "captions": [
+      { "cue": "intro", "text": "A computer works in three stages: input, processing and output." },
+      { "cue": "input", "text": "Input devices send data into the computer. They are how we give the computer instructions." },
+      { "cue": "keyboard", "text": "The keyboard lets us type letters, numbers and commands." },
+      { "cue": "mouse", "text": "The mouse moves the pointer on the screen, so we can point, click and select." },
+      { "cue": "mic", "text": "A microphone turns our voice and other sounds into data the computer can store." },
+      { "cue": "webcam", "text": "A webcam captures pictures and video, for example in an online class." },
+      { "cue": "process", "text": "Inside the system unit, the CPU processes the data and turns it into information." },
+      { "cue": "output", "text": "Output devices give that information back to us, in a form we can see, hear or hold." },
+      { "cue": "monitor", "text": "The monitor shows text, pictures and video. It is soft copy output." },
+      { "cue": "printer", "text": "The printer puts information onto paper. This is called hard copy." },
+      { "cue": "speakers", "text": "Speakers play sound, like music and voices." },
+      { "cue": "outro", "text": "Input goes in, processing happens inside, and output comes out. Now sort each device yourself." }
+    ]
+  },
+  "explore": {
+    "description": "Sort the devices. Drag each one to its tray under INPUT or OUTPUT, and listen to what it does."
+  },
+  "parts": [
+    { "key": "Keyboard", "name": "Keyboard", "text": "an input device. We press its keys to type letters, numbers and commands." },
+    { "key": "Mouse", "name": "Mouse", "text": "an input device. It moves the pointer so we can point, click and drag." },
+    { "key": "Microphone", "name": "Microphone", "text": "an input device. It turns sound, like our voice, into data." },
+    { "key": "Webcam", "name": "Webcam", "text": "an input device. It captures pictures and video." },
+    { "key": "Monitor", "name": "Monitor", "text": "an output device. It shows text, pictures and video on its screen: soft copy." },
+    { "key": "Printer", "name": "Printer", "text": "an output device. It prints information onto paper: hard copy." },
+    { "key": "Speakers", "name": "Speakers", "text": "an output device. They play sound, like music and voices." },
+    { "key": "Projector", "name": "Projector", "text": "an output device. It shows the screen as a large picture on a wall, so a whole class can see." }
+  ],
+  "groups": { "INPUT": ["Keyboard", "Mouse", "Microphone", "Webcam"], "OUTPUT": ["Monitor", "Printer", "Speakers", "Projector"] },
+  "questions": {
+    "maxSteps": 5,
+    "items": [
+      { "q": "Which of these is an input device?", "answers": ["Keyboard", "Monitor", "Printer", "Speakers"] },
+      { "q": "Which device gives hard copy output?", "answers": ["Printer", "Monitor", "Projector", "Webcam"] },
+      { "q": "What is the job of an output device?", "answers": ["To give information from the computer to the user", "To put data into the computer", "To store programs permanently", "To process instructions"] },
+      { "q": "A learner records her voice for a project. Which device does she use?", "answers": ["Microphone", "Speakers", "Printer", "Monitor"] },
+      { "q": "Which device moves the pointer on the screen?", "answers": ["Mouse", "Speakers", "Projector", "Printer"] },
+      { "q": "Information shown on a monitor is called...", "answers": ["soft copy", "hard copy", "input", "storage"] },
+      { "q": "Which of these is an output device?", "answers": ["Speakers", "Microphone", "Webcam", "Keyboard"] },
+      { "q": "What are the three stages of how a computer works?", "answers": ["Input, processing and output", "Typing, clicking and printing", "Saving, opening and closing", "Monitor, keyboard and mouse"] },
+      { "q": "A teacher wants the whole class to see her screen on the wall. Which device helps her?", "answers": ["Projector", "Webcam", "Mouse", "Microphone"] },
+      { "q": "Which part processes data into information?", "answers": ["CPU", "Keyboard", "Printer", "Speakers"] }
+    ]
+  },
+  "summary": "You have now completed this activity on <b>Input and Output Devices</b>!  Please feel free to take this activity again or try out one of our other activities!"
+}

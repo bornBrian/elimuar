@@ -1,0 +1,1048 @@
+{
+  "format": "elimuar-activity/1",
+  "scenePath": "Assets/ElimuARContent/SettingUpAComputer/settingupacomputer.unity",
+  "rootPath": "SettingUpAComputer_Root",
+  "settings": {
+    "occlusion": false,
+    "showDesk": true,
+    "deskOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "sections": [
+    {
+      "kind": "observe",
+      "section": 11,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "SettingUpAComputerObserve",
+          "kind": "step",
+          "title": "Observe",
+          "description": "Observe the parts of a computer system, what each one does, and how they connect.",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": "ICT_Setup_Observe",
+          "captions": [
+            {
+              "text": "A computer system is made of parts that work together. Some parts take data in, some process it, and some give information out.",
+              "duration": 11.324
+            },
+            {
+              "text": "The monitor is an output device. It shows us text, pictures, and video.",
+              "duration": 8.804
+            },
+            {
+              "text": "The keyboard and the mouse are input devices. We use them to type, to point, and to click.",
+              "duration": 9.428
+            },
+            {
+              "text": "The system unit holds the parts that process and store data. Let's lift off its cover and look inside.",
+              "duration": 9.692
+            },
+            {
+              "text": "The large circuit board is the motherboard. Every part connects to it, so the parts can share power and data.",
+              "duration": 9.836
+            },
+            {
+              "text": "This is the central processing unit, or CPU. It carries out instructions and does calculations. It is the brain of the computer.",
+              "duration": 12.764
+            },
+            {
+              "text": "These are the memory modules, called RAM. RAM holds the programs and data you are using right now. When the power goes off, RAM is emptied.",
+              "duration": 13.652
+            },
+            {
+              "text": "The storage drive keeps your files and programs, even when the computer is switched off.",
+              "duration": 7.82
+            },
+            {
+              "text": "The power supply unit changes electricity from the wall socket into the power that the parts need.",
+              "duration": 8.084
+            },
+            {
+              "text": "Now let's turn the system unit around. At the back are the ports, where the cables connect.",
+              "duration": 8.78
+            },
+            {
+              "text": "Each kind of cable has its own shape of port. A plug only fits the port that matches it, and only one way round.",
+              "duration": 10.7
+            },
+            {
+              "text": "The monitor cable goes into the HDMI port. The keyboard and mouse go into USB ports. The network cable goes into the LAN port.",
+              "duration": 13.124
+            },
+            {
+              "text": "Connect every cable first, and switch on the power last. Before you open a computer, always switch it off and unplug it.",
+              "duration": 11.156
+            },
+            {
+              "text": "Select Next to continue.",
+              "duration": -1
+            }
+          ],
+          "buttons": [
+            {
+              "id": "observe_replay",
+              "text": "Replay",
+              "active": true,
+              "enabled": true
+            }
+          ],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [
+            "SettingUpAComputerObserve"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "explore",
+      "section": 12,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "SettingUpAComputerBuild",
+          "kind": "step",
+          "title": "Build",
+          "description": "Fit the <b>CPU</b>, the <b>RAM</b>, and the <b>storage drive</b> into the motherboard. Touch and hold a part to hear how to handle it.",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [
+            {
+              "id": "explore_reset",
+              "text": "Reset",
+              "active": true,
+              "enabled": true
+            }
+          ],
+          "confirmMoveOn": true,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready for the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [
+            "SettingUpAComputerBuild"
+          ]
+        },
+        {
+          "id": "SettingUpAComputerConnect",
+          "kind": "step",
+          "title": "Connect",
+          "description": "Walk to the back of the system unit. Drag each plug to the port that matches it. A plug only fits its own port.",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [
+            {
+              "id": "explore_reset",
+              "text": "Reset",
+              "active": true,
+              "enabled": true
+            }
+          ],
+          "confirmMoveOn": true,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to show what you know?",
+            "confirm": "I'm Ready!",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [
+            "SettingUpAComputerConnect"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "question",
+      "section": 13,
+      "randomize": true,
+      "maxSteps": 5,
+      "steps": [
+        {
+          "id": "SettingUpAComputerEvaluate01",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which device shows the computer's output as text, pictures, and video?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Monitor",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Keyboard",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Mouse",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "System unit",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate02",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which part carries out instructions and does calculations?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "CPU",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "RAM",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Storage drive",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Power supply unit",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate03",
+          "kind": "question",
+          "title": "Question",
+          "description": "What happens to the data in RAM when the computer is switched off?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "It is lost",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It is saved to the CPU",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It is printed",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "It stays until you delete it",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate04",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which part keeps your files even when the computer is switched off?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Storage drive",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "RAM",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "CPU",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Monitor",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate05",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which port should the monitor's HDMI cable go into?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "The HDMI port",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "A USB port",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "The LAN port",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "The audio port",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate06",
+          "kind": "question",
+          "title": "Question",
+          "description": "The keyboard and the mouse are both...",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Input devices",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Output devices",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Storage devices",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Processing devices",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate07",
+          "kind": "question",
+          "title": "Question",
+          "description": "What must you do before you open a computer's system unit?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Switch it off and unplug it",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Turn up the volume",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Connect the mouse",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Open a program",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate08",
+          "kind": "question",
+          "title": "Question",
+          "description": "How should you hold a RAM module?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "By its edges",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "By its gold contacts",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "By its chips",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "With wet hands",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate09",
+          "kind": "question",
+          "title": "Question",
+          "description": "Which cable connects a computer to the school network?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Ethernet cable",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "HDMI cable",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Power cable",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "USB cable",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "SettingUpAComputerEvaluate10",
+          "kind": "question",
+          "title": "Question",
+          "description": "When you set up a computer, what should you do last?",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": [],
+          "question": {
+            "randomizeAnswers": true,
+            "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+            "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+            "correctFeedback": "",
+            "incorrectFeedback": "",
+            "answers": [
+              {
+                "text": "Switch on the power",
+                "correct": true,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Connect the keyboard",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Connect the monitor",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              },
+              {
+                "text": "Connect the network cable",
+                "correct": false,
+                "feedback": "",
+                "iconName": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "summary",
+      "section": 14,
+      "randomize": false,
+      "maxSteps": -1,
+      "steps": [
+        {
+          "id": "SettingUpAComputerResults",
+          "kind": "step",
+          "title": "Summary",
+          "description": "You have now completed this activity on <b>Setting Up a Computer</b>! You can name the parts of a computer, fit them, and connect its devices. Try it again, or try one of our other activities!",
+          "imageName": null,
+          "autoplayVO": true,
+          "voClip": null,
+          "captions": [],
+          "buttons": [],
+          "confirmMoveOn": false,
+          "confirm": {
+            "title": "Ready to Move On?",
+            "content": "Are you ready to move to the next exercise?",
+            "confirm": "Continue to next exercise",
+            "cancel": "Cancel"
+          },
+          "countdown": {
+            "duration": 5,
+            "text": "Moving on in..."
+          },
+          "objectPaths": []
+        }
+      ]
+    }
+  ],
+  "dragItems": [
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/CPU",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/CPU",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/CpuSlot",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_CPU",
+      "holdCaption": "<size=+10><b>CPU: </b></size><br>the processor. Hold it by its edges. Line up the gold triangle with the triangle on the socket, then lower it in gently. Never press on the pins.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.0,
+      "fits": null,
+      "lift": 0.12,
+      "approach": {
+        "x": 0.0,
+        "y": 0.035,
+        "z": 0.0
+      }
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/RAM",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/RAM",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/RamSlot",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_RAM",
+      "holdCaption": "<size=+10><b>RAM: </b></size><br>the computer's working memory. Hold it by its edges. Line up the notch with the key in the slot, then press down firmly until both clips click.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.0,
+      "fits": null,
+      "lift": 0.12,
+      "approach": {
+        "x": 0.0,
+        "y": 0.06,
+        "z": 0.0
+      }
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/SSD",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SSD",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/SsdSlot",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_SSD",
+      "holdCaption": "<size=+10><b>Storage drive: </b></size><br>an M.2 solid state drive. Slide it into the M.2 slot at a small angle, then press it down and fix it with its screw.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.0,
+      "fits": null,
+      "lift": 0.12,
+      "approach": {
+        "x": 0.028,
+        "y": 0.016,
+        "z": 0.0
+      }
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/HDMI",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/HDMI",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortHDMI/TargetHDMI",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_HDMI",
+      "holdCaption": "<size=+10><b>HDMI cable: </b></size><br>it carries picture and sound from the computer to the monitor. It has a flat plug with two slanted corners, so it fits only one way.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.013,
+      "fits": "hdmi",
+      "lift": 0.03,
+      "approach": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.06
+      }
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/KeyboardUSB",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/KeyboardUSB",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortUSB1/TargetUSB1",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_KeyboardUSB",
+      "holdCaption": "<size=+10><b>Keyboard USB plug: </b></size><br>the keyboard's cable ends in a flat, rectangular USB plug. Push it into any USB port, with the plastic tongue facing the right way.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.013,
+      "fits": "usb",
+      "lift": 0.03,
+      "approach": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.06
+      }
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/MouseUSB",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/MouseUSB",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortUSB2/TargetUSB2",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_MouseUSB",
+      "holdCaption": "<size=+10><b>Mouse USB plug: </b></size><br>the mouse also uses a USB plug. It goes into another USB port, next to the keyboard.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.013,
+      "fits": "usb",
+      "lift": 0.03,
+      "approach": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.06
+      }
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Ethernet",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Ethernet",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortLAN/TargetLAN",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_Ethernet",
+      "holdCaption": "<size=+10><b>Network cable: </b></size><br>an Ethernet cable connects the computer to the school network. Its plug clicks into the LAN port. Press the clip to take it out.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.013,
+      "fits": "rj45",
+      "lift": 0.03,
+      "approach": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.06
+      }
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Power",
+      "isDraggable": true,
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Power",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortPower/TargetPower",
+      "useLocalTransform": true,
+      "returnWhenOver": false,
+      "returnDuration": 0.35,
+      "targetTweenDuration": 0.45,
+      "holdClip": "ICT_Setup_Explore_Power",
+      "holdCaption": "<size=+10><b>Power cable: </b></size><br>it brings electricity from the wall socket to the power supply unit. Connect it last, after every other cable.",
+      "holdCaptionMinimumDuration": 0,
+      "snapRadius": 0.013,
+      "fits": "power",
+      "lift": 0.03,
+      "approach": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.06
+      }
+    }
+  ],
+  "scienceObjects": [
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/CPU",
+      "name": "CPU",
+      "trayPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayCPU",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/RAM",
+      "name": "RAM",
+      "trayPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayRAM",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/SSD",
+      "name": "Storage drive",
+      "trayPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TraySSD",
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/HDMI",
+      "name": "HDMI cable",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/KeyboardUSB",
+      "name": "Keyboard USB plug",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/MouseUSB",
+      "name": "Mouse USB plug",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Ethernet",
+      "name": "Network cable",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Power",
+      "name": "Power cable",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+    }
+  ],
+  "trays": [
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayCPU",
+      "labelPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayCPU/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/CpuSlot"
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayRAM",
+      "labelPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayRAM/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/RamSlot"
+    },
+    {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TraySSD",
+      "labelPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TraySSD/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/SsdSlot"
+    }
+  ],
+  "faders": [],
+  "intro": {
+    "path": "SettingUpAComputer_Root/SettingUpAComputerObserve",
+    "replayId": "observe_replay"
+  },
+  "animator": {
+    "path": "SettingUpAComputer_Root/SettingUpAComputerObserve",
+    "startState": ""
+  },
+  "exploreRoots": [
+    "SettingUpAComputer_Root/SettingUpAComputerBuild",
+    "SettingUpAComputer_Root/SettingUpAComputerConnect"
+  ],
+  "audioClips": [
+    "ICT_Setup_Explore_CPU",
+    "ICT_Setup_Explore_Ethernet",
+    "ICT_Setup_Explore_HDMI",
+    "ICT_Setup_Explore_KeyboardUSB",
+    "ICT_Setup_Explore_MouseUSB",
+    "ICT_Setup_Explore_Power",
+    "ICT_Setup_Explore_RAM",
+    "ICT_Setup_Explore_SSD",
+    "ICT_Setup_Observe"
+  ],
+  "animationClips": [
+    "SettingUpAComputerObserve"
+  ]
+}

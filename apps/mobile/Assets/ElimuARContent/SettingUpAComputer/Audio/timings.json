@@ -1,0 +1,83 @@
+{
+ "observeClip": "ICT_Setup_Observe",
+ "observeLength": 135.164,
+ "captions": [
+  {
+   "text": "A computer system is made of parts that work together. Some parts take data in, some process it, and some give information out.",
+   "duration": 11.324
+  },
+  {
+   "text": "The monitor is an output device. It shows us text, pictures, and video.",
+   "duration": 8.804
+  },
+  {
+   "text": "The keyboard and the mouse are input devices. We use them to type, to point, and to click.",
+   "duration": 9.428
+  },
+  {
+   "text": "The system unit holds the parts that process and store data. Let's lift off its cover and look inside.",
+   "duration": 9.692
+  },
+  {
+   "text": "The large circuit board is the motherboard. Every part connects to it, so the parts can share power and data.",
+   "duration": 9.836
+  },
+  {
+   "text": "This is the central processing unit, or CPU. It carries out instructions and does calculations. It is the brain of the computer.",
+   "duration": 12.764
+  },
+  {
+   "text": "These are the memory modules, called RAM. RAM holds the programs and data you are using right now. When the power goes off, RAM is emptied.",
+   "duration": 13.652
+  },
+  {
+   "text": "The storage drive keeps your files and programs, even when the computer is switched off.",
+   "duration": 7.82
+  },
+  {
+   "text": "The power supply unit changes electricity from the wall socket into the power that the parts need.",
+   "duration": 8.084
+  },
+  {
+   "text": "Now let's turn the system unit around. At the back are the ports, where the cables connect.",
+   "duration": 8.78
+  },
+  {
+   "text": "Each kind of cable has its own shape of port. A plug only fits the port that matches it, and only one way round.",
+   "duration": 10.7
+  },
+  {
+   "text": "The monitor cable goes into the HDMI port. The keyboard and mouse go into USB ports. The network cable goes into the LAN port.",
+   "duration": 13.124
+  },
+  {
+   "text": "Connect every cable first, and switch on the power last. Before you open a computer, always switch it off and unplug it.",
+   "duration": 11.156
+  }
+ ],
+ "cues": {
+  "intro": 0.0,
+  "monitor": 11.324,
+  "input": 20.128,
+  "unit": 29.556,
+  "board": 39.248,
+  "cpu": 49.084,
+  "ram": 61.848,
+  "ssd": 75.5,
+  "psu": 83.32,
+  "back": 91.404,
+  "ports": 100.184,
+  "connect": 110.884,
+  "power": 124.008
+ },
+ "holdClips": {
+  "CPU": "ICT_Setup_Explore_CPU",
+  "RAM": "ICT_Setup_Explore_RAM",
+  "SSD": "ICT_Setup_Explore_SSD",
+  "HDMI": "ICT_Setup_Explore_HDMI",
+  "KeyboardUSB": "ICT_Setup_Explore_KeyboardUSB",
+  "MouseUSB": "ICT_Setup_Explore_MouseUSB",
+  "Ethernet": "ICT_Setup_Explore_Ethernet",
+  "Power": "ICT_Setup_Explore_Power"
+ }
+}

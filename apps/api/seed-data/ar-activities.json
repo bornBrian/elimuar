@@ -1,0 +1,4814 @@
+{
+ "format": "elimuar-ar-catalogue/1",
+ "exportedAt": "2026-10-09T10:49:10.583Z",
+ "subjects": [
+  {
+   "subjectKey": "math",
+   "name": "Math",
+   "iconObjectKey": "ar-activities/images/math-ultrawhite-60x60.png",
+   "sortOrder": 0,
+   "createdAt": "2026-10-07T19:27:30.303Z"
+  },
+  {
+   "subjectKey": "science",
+   "name": "Science",
+   "iconObjectKey": "ar-activities/images/science-ultrawhite-60x60.png",
+   "sortOrder": 1,
+   "createdAt": "2026-10-07T19:27:31.328Z"
+  },
+  {
+   "subjectKey": "socialStudies",
+   "name": "Social Studies",
+   "iconObjectKey": "ar-activities/images/socialstudies-ultrawhite-60x60.png",
+   "sortOrder": 2,
+   "createdAt": "2026-10-07T19:27:32.034Z"
+  },
+  {
+   "subjectKey": "englishlanguagearts",
+   "name": "English Language Arts",
+   "iconObjectKey": "ar-activities/images/ela-ultrawhite-60x60.png",
+   "sortOrder": 3,
+   "createdAt": "2026-10-07T19:27:33.339Z"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "a09f2794-e20c-4c57-8a13-386e7db8e341",
+   "syllabusCode": "AR-humaneye",
+   "title": "Human Eye",
+   "summary": "In this activity, you will explore the parts of the human eye.\n\nTip: Move the device into the eye to see it from the inside.",
+   "gradeLevel": "Form 3",
+   "subject": "Biology",
+   "topic": "Biology",
+   "estimatedMinutes": 15,
+   "status": "published",
+   "modelKey": "humaneye",
+   "createdBy": null,
+   "createdAt": "2026-10-07T19:28:02.090Z",
+   "updatedAt": "2026-10-07T21:37:42.936Z"
+  },
+  {
+   "id": "c92926ac-693a-4c46-af63-21f7e6020c15",
+   "syllabusCode": "AR-circulatorysystem",
+   "title": "Circulatory System",
+   "summary": "In this activity, you will explore the circulatory system.\n\nTip: Move the device around to see the circulatory system from different angles.",
+   "gradeLevel": "Form 3",
+   "subject": "Biology",
+   "topic": "Biology",
+   "estimatedMinutes": 15,
+   "status": "published",
+   "modelKey": "circulatorysystem",
+   "createdBy": null,
+   "createdAt": "2026-10-07T19:27:48.313Z",
+   "updatedAt": "2026-10-07T21:37:27.692Z"
+  },
+  {
+   "id": "f19efebb-e8bf-4a8b-b5d8-751fa81de494",
+   "syllabusCode": "AR-settingupacomputer",
+   "title": "Setting Up a Computer",
+   "summary": "In this activity, you will look inside a computer, fit its main parts, and connect its devices to the right ports.\n\nTip: Walk around the computer to see its back, where the cables connect.",
+   "gradeLevel": "Form 1",
+   "subject": "Computer Science",
+   "topic": "Computer Science",
+   "estimatedMinutes": 15,
+   "status": "published",
+   "modelKey": "settingupacomputer",
+   "createdBy": null,
+   "createdAt": "2026-10-08T16:59:50.693Z",
+   "updatedAt": "2026-10-09T04:52:38.888Z"
+  },
+  {
+   "id": "f510fcd9-a0d5-408c-a215-235d1afa69b4",
+   "syllabusCode": "AR-respiratorysystem",
+   "title": "Respiratory System",
+   "summary": "In this activity, you will explore the respiratory system.\n\nTip: Move the device around to see the respiratory system from different angles.",
+   "gradeLevel": "Form 2",
+   "subject": "Biology",
+   "topic": "Biology",
+   "estimatedMinutes": 15,
+   "status": "published",
+   "modelKey": "respiratorysystem",
+   "createdBy": null,
+   "createdAt": "2026-10-07T19:28:16.002Z",
+   "updatedAt": "2026-10-07T21:37:50.868Z"
+  }
+ ],
+ "activities": [
+  {
+   "id": "04c4655a-7813-443f-937a-c794e6feec72",
+   "activityKey": "settingupacomputer",
+   "title": "Setting Up a Computer",
+   "description": "In this activity, you will look inside a computer, fit its main parts, and connect its devices to the right ports.\n\nTip: Walk around the computer to see its back, where the cables connect.",
+   "category": "ict",
+   "subject": "Computer Science",
+   "tags": [
+    "Computer Science",
+    "Hardware",
+    "Computer Studies"
+   ],
+   "credits": "",
+   "trackingStyle": "AR",
+   "minUsers": 1,
+   "maxUsers": 1,
+   "bundleName": "settingupacomputer",
+   "bundleVersion": 2,
+   "version": "0.0.2",
+   "buildNumber": 0,
+   "minimumShellVersion": "0.12.21",
+   "hasScore": true,
+   "gradeLevel": "Form 1",
+   "bundleObjectKey": "ar-activities/bundles/settingupacomputer_android_v002.bundle",
+   "bundleSizeBytes": 6933895,
+   "thumbnailObjectKey": "ar-activities/images/ict-activity-thumbnail-settingupacomputer.png",
+   "manifest": {
+    "intro": {
+     "path": "SettingUpAComputer_Root/SettingUpAComputerObserve",
+     "replayId": "observe_replay"
+    },
+    "trays": [
+     {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayCPU",
+      "labelPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayCPU/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/CpuSlot"
+     },
+     {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayRAM",
+      "labelPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayRAM/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/RamSlot"
+     },
+     {
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TraySSD",
+      "labelPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TraySSD/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/SsdSlot"
+     }
+    ],
+    "faders": [],
+    "format": "elimuar-activity/1",
+    "preview": {
+     "observeAudio": "settingupacomputer-observe.mp3"
+    },
+    "animator": {
+     "path": "SettingUpAComputer_Root/SettingUpAComputerObserve",
+     "startState": ""
+    },
+    "rootPath": "SettingUpAComputer_Root",
+    "sections": [
+     {
+      "kind": "observe",
+      "steps": [
+       {
+        "id": "SettingUpAComputerObserve",
+        "kind": "step",
+        "title": "Observe",
+        "voClip": "ICT_Setup_Observe",
+        "buttons": [
+         {
+          "id": "observe_replay",
+          "text": "Replay",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [
+         {
+          "text": "A computer system is made of parts that work together. Some parts take data in, some process it, and some give information out.",
+          "duration": 11.324
+         },
+         {
+          "text": "The monitor is an output device. It shows us text, pictures, and video.",
+          "duration": 8.804
+         },
+         {
+          "text": "The keyboard and the mouse are input devices. We use them to type, to point, and to click.",
+          "duration": 9.428
+         },
+         {
+          "text": "The system unit holds the parts that process and store data. Let's lift off its cover and look inside.",
+          "duration": 9.692
+         },
+         {
+          "text": "The large circuit board is the motherboard. Every part connects to it, so the parts can share power and data.",
+          "duration": 9.836
+         },
+         {
+          "text": "This is the central processing unit, or CPU. It carries out instructions and does calculations. It is the brain of the computer.",
+          "duration": 12.764
+         },
+         {
+          "text": "These are the memory modules, called RAM. RAM holds the programs and data you are using right now. When the power goes off, RAM is emptied.",
+          "duration": 13.652
+         },
+         {
+          "text": "The storage drive keeps your files and programs, even when the computer is switched off.",
+          "duration": 7.82
+         },
+         {
+          "text": "The power supply unit changes electricity from the wall socket into the power that the parts need.",
+          "duration": 8.084
+         },
+         {
+          "text": "Now let's turn the system unit around. At the back are the ports, where the cables connect.",
+          "duration": 8.78
+         },
+         {
+          "text": "Each kind of cable has its own shape of port. A plug only fits the port that matches it, and only one way round.",
+          "duration": 10.7
+         },
+         {
+          "text": "The monitor cable goes into the HDMI port. The keyboard and mouse go into USB ports. The network cable goes into the LAN port.",
+          "duration": 13.124
+         },
+         {
+          "text": "Connect every cable first, and switch on the power last. Before you open a computer, always switch it off and unplug it.",
+          "duration": 11.156
+         },
+         {
+          "text": "Select Next to continue.",
+          "duration": -1
+         }
+        ],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Observe the parts of a computer system, what each one does, and how they connect.",
+        "objectPaths": [
+         "SettingUpAComputerObserve"
+        ],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 11,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "explore",
+      "steps": [
+       {
+        "id": "SettingUpAComputerBuild",
+        "kind": "step",
+        "title": "Build",
+        "voClip": null,
+        "buttons": [
+         {
+          "id": "explore_reset",
+          "text": "Reset",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready for the next exercise?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Fit the <b>CPU</b>, the <b>RAM</b>, and the <b>storage drive</b> into the motherboard. Touch and hold a part to hear how to handle it.",
+        "objectPaths": [
+         "SettingUpAComputerBuild"
+        ],
+        "confirmMoveOn": true
+       },
+       {
+        "id": "SettingUpAComputerConnect",
+        "kind": "step",
+        "title": "Connect",
+        "voClip": null,
+        "buttons": [
+         {
+          "id": "explore_reset",
+          "text": "Reset",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "I'm Ready!",
+         "content": "Are you ready to show what you know?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Walk to the back of the system unit. Drag each plug to the port that matches it. A plug only fits its own port.",
+        "objectPaths": [
+         "SettingUpAComputerConnect"
+        ],
+        "confirmMoveOn": true
+       }
+      ],
+      "section": 12,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "question",
+      "steps": [
+       {
+        "id": "SettingUpAComputerEvaluate01",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Monitor",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Keyboard",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Mouse",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "System unit",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which device shows the computer's output as text, pictures, and video?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate02",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "CPU",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "RAM",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Storage drive",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Power supply unit",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which part carries out instructions and does calculations?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate03",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "It is lost",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "It is saved to the CPU",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "It is printed",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "It stays until you delete it",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What happens to the data in RAM when the computer is switched off?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate04",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Storage drive",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "RAM",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "CPU",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Monitor",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which part keeps your files even when the computer is switched off?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate05",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "The HDMI port",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "A USB port",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "The LAN port",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "The audio port",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which port should the monitor's HDMI cable go into?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate06",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Input devices",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Output devices",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Storage devices",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Processing devices",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "The keyboard and the mouse are both...",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate07",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Switch it off and unplug it",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Turn up the volume",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Connect the mouse",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Open a program",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What must you do before you open a computer's system unit?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate08",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "By its edges",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "By its gold contacts",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "By its chips",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "With wet hands",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "How should you hold a RAM module?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate09",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Ethernet cable",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "HDMI cable",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Power cable",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "USB cable",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which cable connects a computer to the school network?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "SettingUpAComputerEvaluate10",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Switch on the power",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Connect the keyboard",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Connect the monitor",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Connect the network cable",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "When you set up a computer, what should you do last?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 13,
+      "maxSteps": 5,
+      "randomize": true
+     },
+     {
+      "kind": "summary",
+      "steps": [
+       {
+        "id": "SettingUpAComputerResults",
+        "kind": "step",
+        "title": "Summary",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "You have now completed this activity on <b>Setting Up a Computer</b>! You can name the parts of a computer, fit them, and connect its devices. Try it again, or try one of our other activities!",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 14,
+      "maxSteps": -1,
+      "randomize": false
+     }
+    ],
+    "settings": {
+     "showDesk": true,
+     "occlusion": false,
+     "deskOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     }
+    },
+    "dragItems": [
+     {
+      "fits": null,
+      "lift": 0.12,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/CPU",
+      "approach": {
+       "x": 0,
+       "y": 0.035,
+       "z": 0
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/CPU",
+      "holdClip": "ICT_Setup_Explore_CPU",
+      "snapRadius": 0,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/CpuSlot",
+      "holdCaption": "<size=+10><b>CPU: </b></size><br>the processor. Hold it by its edges. Line up the gold triangle with the triangle on the socket, then lower it in gently. Never press on the pins.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "fits": null,
+      "lift": 0.12,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/RAM",
+      "approach": {
+       "x": 0,
+       "y": 0.06,
+       "z": 0
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/RAM",
+      "holdClip": "ICT_Setup_Explore_RAM",
+      "snapRadius": 0,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/RamSlot",
+      "holdCaption": "<size=+10><b>RAM: </b></size><br>the computer's working memory. Hold it by its edges. Line up the notch with the key in the slot, then press down firmly until both clips click.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "fits": null,
+      "lift": 0.12,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/SSD",
+      "approach": {
+       "x": 0.028,
+       "y": 0.016,
+       "z": 0
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SSD",
+      "holdClip": "ICT_Setup_Explore_SSD",
+      "snapRadius": 0,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/SystemUnit/Motherboard/SsdSlot",
+      "holdCaption": "<size=+10><b>Storage drive: </b></size><br>an M.2 solid state drive. Slide it into the M.2 slot at a small angle, then press it down and fix it with its screw.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "fits": "hdmi",
+      "lift": 0.03,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/HDMI",
+      "approach": {
+       "x": 0,
+       "y": 0,
+       "z": -0.06
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/HDMI",
+      "holdClip": "ICT_Setup_Explore_HDMI",
+      "snapRadius": 0.013,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortHDMI/TargetHDMI",
+      "holdCaption": "<size=+10><b>HDMI cable: </b></size><br>it carries picture and sound from the computer to the monitor. It has a flat plug with two slanted corners, so it fits only one way.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "fits": "usb",
+      "lift": 0.03,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/KeyboardUSB",
+      "approach": {
+       "x": 0,
+       "y": 0,
+       "z": -0.06
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/KeyboardUSB",
+      "holdClip": "ICT_Setup_Explore_KeyboardUSB",
+      "snapRadius": 0.013,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortUSB1/TargetUSB1",
+      "holdCaption": "<size=+10><b>Keyboard USB plug: </b></size><br>the keyboard's cable ends in a flat, rectangular USB plug. Push it into any USB port, with the plastic tongue facing the right way.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "fits": "usb",
+      "lift": 0.03,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/MouseUSB",
+      "approach": {
+       "x": 0,
+       "y": 0,
+       "z": -0.06
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/MouseUSB",
+      "holdClip": "ICT_Setup_Explore_MouseUSB",
+      "snapRadius": 0.013,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortUSB2/TargetUSB2",
+      "holdCaption": "<size=+10><b>Mouse USB plug: </b></size><br>the mouse also uses a USB plug. It goes into another USB port, next to the keyboard.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "fits": "rj45",
+      "lift": 0.03,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Ethernet",
+      "approach": {
+       "x": 0,
+       "y": 0,
+       "z": -0.06
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Ethernet",
+      "holdClip": "ICT_Setup_Explore_Ethernet",
+      "snapRadius": 0.013,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortLAN/TargetLAN",
+      "holdCaption": "<size=+10><b>Network cable: </b></size><br>an Ethernet cable connects the computer to the school network. Its plug clicks into the LAN port. Press the clip to take it out.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "fits": "power",
+      "lift": 0.03,
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Power",
+      "approach": {
+       "x": 0,
+       "y": 0,
+       "z": -0.06
+      },
+      "dragPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Power",
+      "holdClip": "ICT_Setup_Explore_Power",
+      "snapRadius": 0.013,
+      "targetPath": "SettingUpAComputer_Root/SettingUpAComputerConnect/SystemUnit/PortPower/TargetPower",
+      "holdCaption": "<size=+10><b>Power cable: </b></size><br>it brings electricity from the wall socket to the power supply unit. Connect it last, after every other cable.",
+      "isDraggable": true,
+      "returnDuration": 0.35,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.45,
+      "holdCaptionMinimumDuration": 0
+     }
+    ],
+    "scenePath": "Assets/ElimuARContent/SettingUpAComputer/settingupacomputer.unity",
+    "audioClips": [
+     "ICT_Setup_Explore_CPU",
+     "ICT_Setup_Explore_Ethernet",
+     "ICT_Setup_Explore_HDMI",
+     "ICT_Setup_Explore_KeyboardUSB",
+     "ICT_Setup_Explore_MouseUSB",
+     "ICT_Setup_Explore_Power",
+     "ICT_Setup_Explore_RAM",
+     "ICT_Setup_Explore_SSD",
+     "ICT_Setup_Observe"
+    ],
+    "exploreRoots": [
+     "SettingUpAComputer_Root/SettingUpAComputerBuild",
+     "SettingUpAComputer_Root/SettingUpAComputerConnect"
+    ],
+    "animationClips": [
+     "SettingUpAComputerObserve"
+    ],
+    "scienceObjects": [
+     {
+      "name": "CPU",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/CPU",
+      "trayPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayCPU",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "RAM",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/RAM",
+      "trayPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TrayRAM",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Storage drive",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerBuild/SSD",
+      "trayPath": "SettingUpAComputer_Root/SettingUpAComputerBuild/Trays/TraySSD",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "HDMI cable",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/HDMI",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Keyboard USB plug",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/KeyboardUSB",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Mouse USB plug",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/MouseUSB",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Network cable",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Ethernet",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Power cable",
+      "path": "SettingUpAComputer_Root/SettingUpAComputerConnect/Plugs/Power",
+      "trayPath": null,
+      "hasTransitionAnimation": false
+     }
+    ]
+   },
+   "status": "published",
+   "sortOrder": 0,
+   "lessonId": "f19efebb-e8bf-4a8b-b5d8-751fa81de494",
+   "uploadedBy": null,
+   "createdAt": "2026-10-08T16:59:50.708Z",
+   "updatedAt": "2026-10-09T04:52:38.909Z"
+  },
+  {
+   "id": "6e3faa17-d4b4-4b1d-a3eb-b8afd8e2c83b",
+   "activityKey": "circulatorysystem",
+   "title": "Circulatory System",
+   "description": "In this activity, you will explore the circulatory system.\n\n<b>Tip:</b> Move the device around to see the circulatory system from different angles.",
+   "category": "science",
+   "subject": "Biology",
+   "tags": [
+    "Biology"
+   ],
+   "credits": "",
+   "trackingStyle": "AR",
+   "minUsers": 1,
+   "maxUsers": 1,
+   "bundleName": "22_science_circulatory",
+   "bundleVersion": 29,
+   "version": "0.0.29",
+   "buildNumber": 0,
+   "minimumShellVersion": "0.12.21",
+   "hasScore": true,
+   "gradeLevel": "Form 3",
+   "bundleObjectKey": "ar-activities/bundles/22_science_circulatory_android_v029.bundle",
+   "bundleSizeBytes": 13026208,
+   "thumbnailObjectKey": "ar-activities/images/sci-activity-thumbnail-circulatorysystem.png",
+   "manifest": {
+    "intro": {
+     "path": "CirculatoryRoot/CircAnim_07",
+     "replayId": "observe_replay"
+    },
+    "trays": [
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/RightAtrium",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/RightAtrium/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/RightAtrium/TargetRightAtrium"
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/Artery",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/Artery/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Artery/TargetArtery"
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/LeftAtrium",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/LeftAtrium/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/LeftAtrium/targetLeftAtrium"
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/LeftVentricle",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/LeftVentricle/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/LeftVentricle/TargetLeftVentricle"
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/Heart",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/Heart/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Heart/TargetHeart"
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/Capillaries",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/Capillaries/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Capillaries/TargetCapillaries"
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/RightVentricle",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/RightVentricle/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/RightVentricle/TargetRightVentricle"
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/trays/Vein",
+      "labelPath": "CirculatoryRoot/HeartDissection/trays/Vein/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Vein/TargetVein"
+     }
+    ],
+    "faders": [
+     {
+      "path": "CirculatoryRoot/CircAnim_07/ARTERIES HIGHLIGHT",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/Circle001/Oxygen001",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/HIGHLIGHT_VEINS",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/Circle001/Oxygen002",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/Circle001/Object015",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/Circle001",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/Group011/CC_Base_Body_Retopo",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/Circle002",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "CirculatoryRoot/CircAnim_07/Circle002/Line006",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     }
+    ],
+    "format": "elimuar-activity/1",
+    "preview": {
+     "observeAudio": "circulatorysystem-observe.mp3"
+    },
+    "animator": {
+     "path": "CirculatoryRoot/CircAnim_07",
+     "startState": ""
+    },
+    "rootPath": "CirculatoryRoot",
+    "sections": [
+     {
+      "kind": "observe",
+      "steps": [
+       {
+        "id": "CirculatorySystemObserve",
+        "kind": "step",
+        "title": "Observe",
+        "voClip": "Act22_Circulatory_Observe",
+        "buttons": [
+         {
+          "id": "observe_replay",
+          "text": "Replay",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [
+         {
+          "text": "You require oxygen to survive. The cells in your body use oxygen to help process the energy and nutrients into energy that cells can use. ",
+          "duration": 12.272000312805176
+         },
+         {
+          "text": "Your lungs take in the oxygen, and then oxygen moves into your blood. ",
+          "duration": 5.499999046325684
+         },
+         {
+          "text": "But how does the oxygen in blood get to the rest of the body? Think of the circulatory system as the body’s delivery system.",
+          "duration": 9.744001388549805
+         },
+         {
+          "text": "It transports nutrients, gases, wastes, and other substances throughout the body. ",
+          "duration": 6.99799919128418
+         },
+         {
+          "text": "The circulatory system includes your heart, blood, and blood vessels.",
+          "duration": 6.180999755859375
+         },
+         {
+          "text": "Heart muscle contractions pump blood out of the heart to the body. ",
+          "duration": 5.130001068115234
+         },
+         {
+          "text": "When the muscles relax, blood from the body enters the heart. ",
+          "duration": 5.249000549316406
+         },
+         {
+          "text": "There are three types of blood vessels that help blood travel. They are arteries, veins, and capillaries.",
+          "duration": 8.321998596191406
+         },
+         {
+          "text": "Arteries carry oxygen-rich blood away from the heart. ",
+          "duration": 4.760997772216797
+         },
+         {
+          "text": "Veins transport blood that contains carbon dioxide to the lungs where it is re-oxygenated and sent back to the heart via the pulmonary veins",
+          "duration": 10.277000427246094
+         },
+         {
+          "text": "Capillaries are tiny passages that connect the arteries and veins. ",
+          "duration": 5.566001892089844
+         },
+         {
+          "text": "All these parts of your circulatory system work together to help move blood through your body. ",
+          "duration": 6.91400146484375
+         },
+         {
+          "text": "Select next to continue.",
+          "duration": -1
+         }
+        ],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Observe how the circulatory system transports nutrients, gasses, and other substances throughout your body.",
+        "objectPaths": [
+         "CircAnim_07"
+        ],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 11,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "explore",
+      "steps": [
+       {
+        "id": "CirculatorySystemExplore",
+        "kind": "step",
+        "title": "Explore",
+        "voClip": null,
+        "buttons": [
+         {
+          "id": "explore_reset",
+          "text": "Reset",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "I'm Ready!",
+         "content": "Are you ready to show what you know?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Pull apart the circulatory system to learn more about its parts.\n",
+        "objectPaths": [
+         "HeartDissection"
+        ],
+        "confirmMoveOn": true
+       }
+      ],
+      "section": 12,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "question",
+      "steps": [
+       {
+        "id": "CirculatorySystemEvaluate 1",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Heart",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Artery",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Vein ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which organ pumps blood throughout your body?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 2",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Artery",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Heart",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which vessel carries blood away from the heart?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 3",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Vein",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Artery",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which vessel carries blood toward the heart?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 4",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Right atrium",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right ventricle",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left ventricle",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which chamber of the heart is where oxygen-poor blood enters and is pumped to the right ventricle?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 5",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Left atrium",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right ventricle",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left ventricle ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which chamber of the heart is where oxygen-rich blood enters from the lungs and is pumped to the left ventricle?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 6",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Right ventricle",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left ventricle ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which chamber of the heart is where oxygen-poor blood leaves and is pumped to the lungs? ",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 7",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Left ventricle ",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right ventricle ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Left atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Right atrium",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which chamber of the heart is where oxygen-rich blood leaves and is pumped to the body? ",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 8",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Oxygen and nutrients ",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Carbon dioxide and wastes ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Oxygen and wastes",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Nutrients and carbon dioxide",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What does the circulatory system deliver to the cells?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 9",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Carbon dioxide and wastes",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Oxygen and nutrients",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Oxygen and wastes",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Nutrients and carbon monoxide",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What does the circulatory system carry away from the cells?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "CirculatorySystemEvaluate 10",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Heart, blood, and blood vessels",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lungs, alveoli, and blood vessels",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Bronchi, alveoli, and blood",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Heart, alveoli, and lungs",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Your circulatory system is made up of the following:",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 13,
+      "maxSteps": 5,
+      "randomize": true
+     },
+     {
+      "kind": "summary",
+      "steps": [
+       {
+        "id": "22_ActivityResults",
+        "kind": "step",
+        "title": "Summary",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "You have now completed this activity on <b>The Circulatory System</b>!  Please feel free to take this activity again or try out one of our other activities!",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 14,
+      "maxSteps": -1,
+      "randomize": false
+     }
+    ],
+    "settings": {
+     "showDesk": true,
+     "occlusion": true,
+     "deskOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     }
+    },
+    "dragItems": [
+     {
+      "path": "CirculatoryRoot/HeartDissection/RightVentricle",
+      "dragPath": "CirculatoryRoot/HeartDissection/RightVentricle",
+      "holdClip": "Act22_Circulatory_Explore_RightVentricle",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/RightVentricle/TargetRightVentricle",
+      "holdCaption": "<size=+10><b>Right ventricle: </b></size><br> lower chamber of the heart where oxygen-poor blood leaves and is pumped to the lungs",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/LeftVentricle",
+      "dragPath": "CirculatoryRoot/HeartDissection/LeftVentricle",
+      "holdClip": "Act22_Circulatory_Explore_LeftVentricle",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/LeftVentricle/TargetLeftVentricle",
+      "holdCaption": "<size=+10><b>Left ventricle: </b></size><br> lower chamber of the heart where oxygen-rich blood leaves and is pumped to the body",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/RightAtrium",
+      "dragPath": "CirculatoryRoot/HeartDissection/RightAtrium",
+      "holdClip": "Act22_Circulatory_Explore_RightAtrium",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/RightAtrium/TargetRightAtrium",
+      "holdCaption": "<size=+10><b>Right atrium: </b></size><br> upper chamber of the heart where oxygen-poor blood enters and is pumped to the right ventricle",
+      "isDraggable": true,
+      "returnDuration": 0,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/Vein",
+      "dragPath": "CirculatoryRoot/HeartDissection/Vein",
+      "holdClip": "Act22_Circulatory_Explore_Vein",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Vein/TargetVein",
+      "holdCaption": "<size=+10><b>Vein: </b></size><br> a vessel that carries blood toward the heart",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/Artery",
+      "dragPath": "CirculatoryRoot/HeartDissection/Artery",
+      "holdClip": "Act22_Circulatory_Explore_Artery",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Artery/TargetArtery",
+      "holdCaption": "<size=+10><b>Artery: </b></size><br> a vessel that carries blood away from the heart",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/LeftAtrium",
+      "dragPath": "CirculatoryRoot/HeartDissection/LeftAtrium",
+      "holdClip": "Act22_Circulatory_Explore_LeftAtrium",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/LeftAtrium/targetLeftAtrium",
+      "holdCaption": "<size=+10><b>Left atrium: </b></size><br> upper chamber of the heart where oxygen-rich blood enters from the lungs and is pumped to the left ventricle",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/Capillaries",
+      "dragPath": "CirculatoryRoot/HeartDissection/Capillaries",
+      "holdClip": "Act22_Circulatory_Explore_Capillary",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Capillaries/TargetCapillaries",
+      "holdCaption": "<size=+10><b>Capillary: </b></size><br> a tiny vessel that connects arteries and veins",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "CirculatoryRoot/HeartDissection/front",
+      "dragPath": "CirculatoryRoot/HeartDissection/front",
+      "holdClip": "Act22_Circulatory_Explore_Heart",
+      "targetPath": "CirculatoryRoot/HeartDissection/trays/Heart/TargetHeart",
+      "holdCaption": "<size=+10><b>Heart: </b></size><br> a fist-sized organ that pumps blood throughout your body and is the primary organ of your circulatory system",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     }
+    ],
+    "scenePath": "Assets/SupplementalActivities/3D/Activities/22_3D_Science_Circulatory/22_Science_Circulatory.unity",
+    "audioClips": [
+     "Act22_Circulatory_Explore_Artery",
+     "Act22_Circulatory_Explore_Capillary",
+     "Act22_Circulatory_Explore_Heart",
+     "Act22_Circulatory_Explore_LeftAtrium",
+     "Act22_Circulatory_Explore_LeftVentricle",
+     "Act22_Circulatory_Explore_RightAtrium",
+     "Act22_Circulatory_Explore_RightVentricle",
+     "Act22_Circulatory_Explore_Vein",
+     "Act22_Circulatory_Observe"
+    ],
+    "exploreRoots": [
+     "CirculatoryRoot/HeartDissection"
+    ],
+    "animationClips": [
+     "Take 001"
+    ],
+    "scienceObjects": [
+     {
+      "name": "Right ventricle",
+      "path": "CirculatoryRoot/HeartDissection/RightVentricle",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/RightVentricle",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Left ventricle",
+      "path": "CirculatoryRoot/HeartDissection/LeftVentricle",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/LeftVentricle",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Right atrium",
+      "path": "CirculatoryRoot/HeartDissection/RightAtrium",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/RightAtrium",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Vein",
+      "path": "CirculatoryRoot/HeartDissection/Vein",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/Vein",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Artery",
+      "path": "CirculatoryRoot/HeartDissection/Artery",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/Artery",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Left atrium",
+      "path": "CirculatoryRoot/HeartDissection/LeftAtrium",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/LeftAtrium",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Capillary",
+      "path": "CirculatoryRoot/HeartDissection/Capillaries",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/Capillaries",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Heart",
+      "path": "CirculatoryRoot/HeartDissection/front",
+      "trayPath": "CirculatoryRoot/HeartDissection/trays/Heart",
+      "hasTransitionAnimation": false
+     }
+    ]
+   },
+   "status": "published",
+   "sortOrder": 0,
+   "lessonId": "c92926ac-693a-4c46-af63-21f7e6020c15",
+   "uploadedBy": null,
+   "createdAt": "2026-10-07T19:27:48.322Z",
+   "updatedAt": "2026-10-07T21:37:27.752Z"
+  },
+  {
+   "id": "0c4255fa-4ed3-43a1-9104-fa17b9c3d99b",
+   "activityKey": "humaneye",
+   "title": "Human Eye",
+   "description": "In this activity, you will explore the parts of the human eye.\n\n<b>Tip:</b> Move the device into the eye to see it from the inside.",
+   "category": "science",
+   "subject": "Biology",
+   "tags": [
+    "Biology"
+   ],
+   "credits": "",
+   "trackingStyle": "AR",
+   "minUsers": 1,
+   "maxUsers": 1,
+   "bundleName": "humaneye",
+   "bundleVersion": 23,
+   "version": "0.0.23",
+   "buildNumber": 0,
+   "minimumShellVersion": "0.12.21",
+   "hasScore": true,
+   "gradeLevel": "Form 3",
+   "bundleObjectKey": "ar-activities/bundles/humaneye_android_v023.bundle",
+   "bundleSizeBytes": 13178864,
+   "thumbnailObjectKey": "ar-activities/images/sci-activity-thumbnail-humaneye.png",
+   "manifest": {
+    "intro": {
+     "path": "HumanEye_Root/HumanEyeObserveAnimation",
+     "replayId": "observe_replay"
+    },
+    "trays": [
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Lens",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Lens/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Lens/TargetLens"
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Choroid",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Choroid/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Choroid/TargetChoroid"
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_OpticNerve",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_OpticNerve/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_OpticNerve/TargetOpticNerve"
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Retina",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Retina/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Retina/TargetRetina"
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Iris",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Iris/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Iris/TargetIris"
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Pupil",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Pupil/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Pupil/TargetPupil"
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Cornea",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Cornea/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Cornea/TargetCornea"
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Sclera",
+      "labelPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Sclera/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Sclera/TargetSclera"
+     }
+    ],
+    "faders": [],
+    "format": "elimuar-activity/1",
+    "preview": {
+     "observeAudio": "humaneye-observe.mp3"
+    },
+    "animator": {
+     "path": "HumanEye_Root/HumanEyeObserveAnimation",
+     "startState": ""
+    },
+    "rootPath": "HumanEye_Root",
+    "sections": [
+     {
+      "kind": "observe",
+      "steps": [
+       {
+        "id": "HumanEyeObserve",
+        "kind": "step",
+        "title": "Observe",
+        "voClip": "Act24_Eye_Observe",
+        "buttons": [
+         {
+          "id": "observe_replay",
+          "text": "Replay",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [
+         {
+          "text": "The human eye is a fascinating and complex organ. In fact, your eye is just like a camera. It cannot function without light. ",
+          "duration": 10.949000358581543
+         },
+         {
+          "text": "When your eye sees an image, light reflects off the object and enters the eye. ",
+          "duration": 5.683999061584473
+         },
+         {
+          "text": "Because the front part of the eye is curved, it bends the light, creating an upside-down image on the retina.",
+          "duration": 7.456001281738281
+         },
+         {
+          "text": "The brain turns the image right side up helping you to focus on the object. ",
+          "duration": 5.851999282836914
+         },
+         {
+          "text": "Each of the eye's distinct parts has a specific responsibility helping you to take in information and process the world around you.",
+          "duration": 7.64300012588501
+         },
+         {
+          "text": "Select next to continue.",
+          "duration": -1
+         }
+        ],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Observe how the human eye works to help you see.",
+        "objectPaths": [
+         "HumanEyeObserveAnimation"
+        ],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 11,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "explore",
+      "steps": [
+       {
+        "id": "HumanEyeExplore",
+        "kind": "step",
+        "title": "Explore",
+        "voClip": null,
+        "buttons": [
+         {
+          "id": "explore_reset",
+          "text": "Reset",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "I'm Ready!",
+         "content": "Are you ready to show what you know?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Pull apart the human eye to discover how each part works.",
+        "objectPaths": [
+         "HumanEyeExplore3D"
+        ],
+        "confirmMoveOn": true
+       }
+      ],
+      "section": 12,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "question",
+      "steps": [
+       {
+        "id": "HumanEyeEvaluate01",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Retina",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Pupil",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Sclera",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Cornea",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which part of the eye is responsible for capturing light and translating images to the brain?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate02",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Optic nerve",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lens",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Choroid",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Pupil",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which part of the eye relays messages from the retina to your brain?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate03",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Cornea",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Sclera",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Image",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Iris",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which part of the eye covers the iris and the pupil and helps the eye focus as light passes through?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate04",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Pupil",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Image",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Choroid",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lens",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "This part of the eye is a black circle at the center of the iris that lets light enter.\n",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate05",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Iris",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Cornea",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lens",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Retina",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "The colorful part of the eye that helps regulate light that enters the retina.",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate06",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Lens",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Sclera",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Image",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Iris",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What part of the eye is clear and changes shape to help bring things into focus?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate07",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Image",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Choroid",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Sclera",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lens",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What is a “picture” of a light source that light rays make in bouncing off a polished, shiny surface?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate08",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Sclera",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Cornea",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Retina",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Pupil",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What is the white outer layer of the eye that protects and supports?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate09",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Choroid ",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lens",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Optic nerve",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Iris",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Which part of the eye brings oxygen and nutrients to the eye?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "HumanEyeEvaluate10",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Pupil and cornea",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Cornea and lens",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Pupil and iris",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Cornea and retina",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What parts of the eye allow light to pass through?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 13,
+      "maxSteps": 5,
+      "randomize": true
+     },
+     {
+      "kind": "summary",
+      "steps": [
+       {
+        "id": "24_ActivityResults",
+        "kind": "step",
+        "title": "Summary",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "You have now completed this activity on <b>The Human Eye</b>!  Please feel free to take this activity again or try out one of our other activities!",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 14,
+      "maxSteps": -1,
+      "randomize": false
+     }
+    ],
+    "settings": {
+     "showDesk": true,
+     "occlusion": false,
+     "deskOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     }
+    },
+    "dragItems": [
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Retina_h",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/Retina_h",
+      "holdClip": "Act24_Eye_Explore_Retina",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Retina/TargetRetina",
+      "holdCaption": "<size=+10><b>Retina: </b></size><br>a thin layer of tissue that lines the back of the eye that captures light and helps to translate images to the brain ",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Schlera_h_IgnoreLabel",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/Schlera_h_IgnoreLabel",
+      "holdClip": "Act24_Eye_Explore_Sclera",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Sclera/TargetSclera",
+      "holdCaption": "<size=+10><b>Sclera: </b></size><br>the white outer layer of the eyeball that protects and supports your eye ",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Choroid_h_IgnoreLabel",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/Choroid_h_IgnoreLabel",
+      "holdClip": "Act24_Eye_Explore_Choroid",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Choroid/TargetChoroid",
+      "holdCaption": "<size=+10><b>Choroid: </b></size><br>the vascular layer of the eyeball between the retina and the sclera that brings oxygen and nutrients to the eye ",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Iris_h",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/Iris_h",
+      "holdClip": "Act24_Eye_Explore_Iris",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Iris/TargetIris",
+      "holdCaption": "<size=+10><b>Iris: </b></size><br>the colorful part of the eye that helps to regulate the amount of light that enters the retina ",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Cornea_h/Cornea",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/Cornea_h/Cornea",
+      "holdClip": "Act24_Eye_Explore_Cornea",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Cornea/TargetCornea",
+      "holdCaption": "<size=+10><b>Cornea: </b></size><br>a transparent dome that covers the iris and the pupil that helps the eye focus as light passes through",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/OpticNerve_h/OpticNerve",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/OpticNerve_h/OpticNerve",
+      "holdClip": "Act24_Eye_Explore_OpticNerve",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_OpticNerve/TargetOpticNerve",
+      "holdCaption": "<size=+10><b>Optic nerve: </b></size><br> a bundle of nerve fibers located in the back of the eye that relays messages from the retina to your brain",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Lens_h",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/Lens_h",
+      "holdClip": "Act24_Eye_Explore_Lens",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Lens/TargetLens",
+      "holdCaption": "<size=+10><b>Lens: </b></size><br>a clear curved disc that sits behind the iris that changes shape to bring things into focus ",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "HumanEye_Root/HumanEyeExplore3D/Pupil_h",
+      "dragPath": "HumanEye_Root/HumanEyeExplore3D/Pupil_h",
+      "holdClip": "Act24_Eye_Explore_Pupil",
+      "targetPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Pupil/TargetPupil",
+      "holdCaption": "<size=+10><b>Pupil: </b></size><br>the black circle in the center of the iris that lets light enter the eye ",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     }
+    ],
+    "scenePath": "Assets/SupplementalActivities/3D/Activities/24_HumanEye/humaneye.unity",
+    "audioClips": [
+     "Act24_Eye_Explore_Choroid",
+     "Act24_Eye_Explore_Cornea",
+     "Act24_Eye_Explore_Iris",
+     "Act24_Eye_Explore_Lens",
+     "Act24_Eye_Explore_OpticNerve",
+     "Act24_Eye_Explore_Pupil",
+     "Act24_Eye_Explore_Retina",
+     "Act24_Eye_Explore_Sclera",
+     "Act24_Eye_Observe"
+    ],
+    "exploreRoots": [
+     "HumanEye_Root/HumanEyeExplore3D"
+    ],
+    "animationClips": [
+     "Take 001"
+    ],
+    "scienceObjects": [
+     {
+      "name": "Choroid",
+      "path": "HumanEye_Root/HumanEyeExplore3D/Choroid_h_IgnoreLabel",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Choroid",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Cornea",
+      "path": "HumanEye_Root/HumanEyeExplore3D/Cornea_h/Cornea",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Cornea",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Optic nerve",
+      "path": "HumanEye_Root/HumanEyeExplore3D/OpticNerve_h/OpticNerve",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_OpticNerve",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Sclera",
+      "path": "HumanEye_Root/HumanEyeExplore3D/Schlera_h_IgnoreLabel",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Sclera",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Pupil",
+      "path": "HumanEye_Root/HumanEyeExplore3D/Pupil_h",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Pupil",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Lens",
+      "path": "HumanEye_Root/HumanEyeExplore3D/Lens_h",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Lens",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Retina",
+      "path": "HumanEye_Root/HumanEyeExplore3D/Retina_h",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Retina",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Iris",
+      "path": "HumanEye_Root/HumanEyeExplore3D/Iris_h",
+      "trayPath": "HumanEye_Root/HumanEyeExplore3D/Trays/ScienceTrayV2_Iris",
+      "hasTransitionAnimation": false
+     }
+    ]
+   },
+   "status": "published",
+   "sortOrder": 1,
+   "lessonId": "a09f2794-e20c-4c57-8a13-386e7db8e341",
+   "uploadedBy": null,
+   "createdAt": "2026-10-07T19:28:02.093Z",
+   "updatedAt": "2026-10-07T21:37:42.940Z"
+  },
+  {
+   "id": "eddc92f2-9856-4dec-9b68-093477186fa4",
+   "activityKey": "respiratorysystem",
+   "title": "Respiratory System",
+   "description": "In this activity, you will explore the respiratory system.\n\n<b>Tip:</b> Move the device around to see the respiratory system from different angles.",
+   "category": "science",
+   "subject": "Biology",
+   "tags": [
+    "Biology"
+   ],
+   "credits": "",
+   "trackingStyle": "AR",
+   "minUsers": 1,
+   "maxUsers": 1,
+   "bundleName": "respiratorysystem",
+   "bundleVersion": 27,
+   "version": "0.0.27",
+   "buildNumber": 0,
+   "minimumShellVersion": "0.12.21",
+   "hasScore": true,
+   "gradeLevel": "Form 2",
+   "bundleObjectKey": "ar-activities/bundles/respiratorysystem_android_v027.bundle",
+   "bundleSizeBytes": 11889456,
+   "thumbnailObjectKey": "ar-activities/images/sci-activity-thumbnail-respiratorysystem.png",
+   "manifest": {
+    "intro": {
+     "path": "RespiratoryRoot/RespSysAnim_WIP_v01",
+     "replayId": "observe_replay"
+    },
+    "trays": [
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_002/Trays_002/Alveoli",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/Alveoli/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/Alveoli/TargetAlveoli"
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayBronchi",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayBronchi/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayBronchi/TargetBronchi"
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_003/Trays_003/CarbonDioxide_Draggable",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/CarbonDioxide_Draggable/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/CarbonDioxide_Draggable/TargetCarbonDioxide_Draggable"
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_003/Trays_003/WallOfAveolus",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/WallOfAveolus/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/WallOfAveolus/TargetWallOfAveolus"
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayLungs",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayLungs/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayLungs/TargetLungs"
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayTrachea",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayTrachea/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayTrachea/TargetTrachea"
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_002/Trays_002/capillary",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/capillary/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/capillary/Targetcapillary"
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_003/Trays_003/Oxygen_Draggable",
+      "labelPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/Oxygen_Draggable/SciencePin/Canvas/Text (TMP)",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/Oxygen_Draggable/TargetOxygen_Draggable"
+     }
+    ],
+    "faders": [
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere048",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere012",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere004",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere059",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere069",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere080",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere006",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere078",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere010",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere063",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere084",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere047",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere008",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere060",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere086",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere011",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere081",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere065",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere076",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere089",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere051",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere091",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere067",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere077",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere057",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere058",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere017",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere074",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere090",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere013",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere046",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere087",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere085",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere066",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere056",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere061",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere071",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere070",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere007",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere055",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere073",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere083",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere062",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere075",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere092",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere050",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere064",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere049",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere068",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere020",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere015",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere053",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS 1/Sphere072",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere009",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere016",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere088",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/Group011/CC_Base_Body_Retopo",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere079",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere018",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere019",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere052",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere082",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS 1/Sphere093",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/BLUE GUYS/Sphere014",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     },
+     {
+      "path": "RespiratoryRoot/RespSysAnim_WIP_v01/YELLOW GUYS/Sphere054",
+      "alpha": 1,
+      "specMaterial": "TransparentSpecular",
+      "referencePath": null,
+      "metallicMaterial": "TransparentMetallic",
+      "disableRendererAtZero": true
+     }
+    ],
+    "format": "elimuar-activity/1",
+    "preview": {
+     "observeAudio": "respiratorysystem-observe.mp3"
+    },
+    "animator": {
+     "path": "RespiratoryRoot/RespSysAnim_WIP_v01",
+     "startState": ""
+    },
+    "rootPath": "RespiratoryRoot",
+    "sections": [
+     {
+      "kind": "observe",
+      "steps": [
+       {
+        "id": "RespiratoryObserve",
+        "kind": "step",
+        "title": "Observe",
+        "voClip": "Act25_respiratory_observe_selectNext",
+        "buttons": [
+         {
+          "id": "observe_replay",
+          "text": "Replay",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [
+         {
+          "text": "Each part of your respiratory system has an important role in moving materials around your body. ",
+          "duration": 8.3100004196167
+         },
+         {
+          "text": "As you inhale air through your nose or mouth, it follows a path down the pharynx to the trachea, to the bronchi, and then to the lungs. ",
+          "duration": 9.906998634338379
+         },
+         {
+          "text": "The path is reversed when you exhale. ",
+          "duration": 3.6170005798339844
+         },
+         {
+          "text": "Your diaphragm sits under your lungs. It contracts and relaxes as you take air in and out, helping your body to regulate air pressure.",
+          "duration": 9.506999969482422
+         },
+         {
+          "text": "The respiration process exchanges gases between the body and its environment. ",
+          "duration": 6.271999359130859
+         },
+         {
+          "text": "When you breathe air into and out of your lungs, it allows your respiratory system to take in oxygen and eliminate carbon dioxide. ",
+          "duration": 9.051002502441406
+         },
+         {
+          "text": "The oxygen is then used to carry out life processes. ",
+          "duration": 3.5
+         },
+         {
+          "text": "Select next to continue.",
+          "duration": -1
+         }
+        ],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Observe how the respiratory system works to move air around your body. ",
+        "objectPaths": [
+         "RespSysAnim_WIP_v01"
+        ],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 11,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "explore",
+      "steps": [
+       {
+        "id": "RespiratoryExplore01",
+        "kind": "step",
+        "title": "Explore",
+        "voClip": null,
+        "buttons": [
+         {
+          "id": "explore_reset",
+          "text": "Reset",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Pull apart the respiratory system to explore its parts.",
+        "objectPaths": [
+         "RespSys_Activity_001"
+        ],
+        "confirmMoveOn": true
+       },
+       {
+        "id": "RespiratoryExplore02",
+        "kind": "step",
+        "title": "Explore",
+        "voClip": null,
+        "buttons": [
+         {
+          "id": "explore_reset",
+          "text": "Reset",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Pull apart the respiratory system to explore its parts.",
+        "objectPaths": [
+         "RespSys_Activity_002"
+        ],
+        "confirmMoveOn": true
+       },
+       {
+        "id": "RespiratoryExplore03",
+        "kind": "step",
+        "title": "Explore",
+        "voClip": null,
+        "buttons": [
+         {
+          "id": "explore_reset",
+          "text": "Reset",
+          "active": true,
+          "enabled": true
+         }
+        ],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "I'm Ready!",
+         "content": "Are you ready to show what you know?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Pull apart the respiratory system to explore its parts.",
+        "objectPaths": [
+         "RespSys_Activity_003"
+        ],
+        "confirmMoveOn": true
+       }
+      ],
+      "section": 12,
+      "maxSteps": -1,
+      "randomize": false
+     },
+     {
+      "kind": "question",
+      "steps": [
+       {
+        "id": "RespiratoryEvaluateQuestion 01",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Alveoli",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Trachea",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Bronchi",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Capillary",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "These are microscopic sacs where gas exchange occurs.",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 02",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Lungs",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Alveoli",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Bronchi",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Wall of alveolus",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "These are the main organs of the respiratory system.\r",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 03",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Bronchi",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Trachea",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Alveoli",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Capillary",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "Two narrow tubes that lead into the lungs.",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 04",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Trachea",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lungs",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Bronchi",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Alveoli",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "A tube that is held open by C-shaped rings of cartilage.",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 05",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Capillary",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Alveoli",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Wall of alveolus",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Bronchi",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "A blood vessel where exchange of materials occurs between blood and body cells.\r",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 06",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Wall of alveolus",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Alveoli",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lungs",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Trachea",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "A thin wall covered in capillaries that allows a high rate of gas exchange between the alveoli and blood.",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 07",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Nose or mouth, pharynx, trachea, bronchi, lungs",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Trachea, bronchi, pharynx, lungs, diaphragm ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Diaphragm, lungs, pharynx, nose or mouth ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lungs, trachea, bronchi, diaphragm, alveoli ",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "What path does air follow as it travels in and out of your body?",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 08",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Oxygen",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Carbon dioxide",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Alveoli",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Capillary",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "This gas enters the body during inhalation. ",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 09",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Carbon dioxide",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Oxygen",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Bronchi",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Lungs",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "This gas exits the body during exhalation.\r",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       },
+       {
+        "id": "RespiratoryEvaluateQuestion 10",
+        "kind": "question",
+        "title": "Question",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "question": {
+         "answers": [
+          {
+           "text": "Respiration",
+           "correct": true,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Inhalation",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Exhalation",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          },
+          {
+           "text": "Contraction",
+           "correct": false,
+           "feedback": "",
+           "iconName": null
+          }
+         ],
+         "correctHeader": "<b>Great job, ::ANSWER:: is correct!</b>",
+         "correctFeedback": "",
+         "incorrectHeader": "<b>The correct answer is ::ANSWER::.</b>",
+         "randomizeAnswers": true,
+         "incorrectFeedback": ""
+        },
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "This process exchanges gasses between the body and its environment.\r",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 13,
+      "maxSteps": 5,
+      "randomize": true
+     },
+     {
+      "kind": "summary",
+      "steps": [
+       {
+        "id": "RespiratoryActivityResults",
+        "kind": "step",
+        "title": "Summary",
+        "voClip": null,
+        "buttons": [],
+        "confirm": {
+         "title": "Ready to Move On?",
+         "cancel": "Cancel",
+         "confirm": "Continue to next exercise",
+         "content": "Are you ready to move to the next exercise?"
+        },
+        "captions": [],
+        "countdown": {
+         "text": "Moving on in...",
+         "duration": 5
+        },
+        "imageName": null,
+        "autoplayVO": true,
+        "description": "You have now completed this activity on <b>The Respiratory System</b>!  Please feel free to take this activity again or try out one of our other activities!",
+        "objectPaths": [],
+        "confirmMoveOn": false
+       }
+      ],
+      "section": 14,
+      "maxSteps": -1,
+      "randomize": false
+     }
+    ],
+    "settings": {
+     "showDesk": true,
+     "occlusion": true,
+     "deskOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     }
+    },
+    "dragItems": [
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/Oxygen_Draggable",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/Oxygen_Draggable",
+      "holdClip": "Act25_respiratory_explore_Oxygen",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/Oxygen_Draggable/TargetOxygen_Draggable",
+      "holdCaption": "<size=+10><b>Oxygen: </b></size><br> a gas that enters the body during inhalation",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_002/DraggbleRoot/capillary",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_002/DraggbleRoot/capillary",
+      "holdClip": "Act25_respiratory_explore_Capillary",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/capillary/Targetcapillary",
+      "holdCaption": "<size=+10><b>Capillary: </b></size><br> microscopic, one cell-wall thick blood vessel where exchange of materials occurs between blood and body cells",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_002/DraggbleRoot/Alveoli_01",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_002/DraggbleRoot/Alveoli_01",
+      "holdClip": "Act25_respiratory_explore_Alveoli",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/Alveoli/TargetAlveoli",
+      "holdCaption": "<size=+10><b>Alveoli: </b></size><br> microscopic sacs, or pouches, where oxygen and carbon dioxide exchange",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/WallOfAveolus",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/WallOfAveolus",
+      "holdClip": "Act25_respiratory_explore_WallOfAlveolus",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/WallOfAveolus/TargetWallOfAveolus",
+      "holdCaption": "<size=+10><b>Wall of alveolus: </b></size><br> a thin wall covered in capillaries that allows a high rate of gas exchange between the alveoli and blood",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_001/Bronchi",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_001/Bronchi",
+      "holdClip": "Act25_respiratory_explore_Bronchi",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayBronchi/TargetBronchi",
+      "holdCaption": "<size=+10><b>Bronchi: </b></size><br> two narrow tubes that lead into the lungs",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_001/Lungs",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_001/Lungs",
+      "holdClip": "Act25_respiratory_explore_Lungs",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayLungs/TargetLungs",
+      "holdCaption": "<size=+10><b>Lungs: </b></size><br> the main organs of the respiratory system",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_001/Trachea",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_001/Trachea",
+      "holdClip": "Act25_respiratory_explore_Trachea",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayTrachea/TargetTrachea",
+      "holdCaption": "<size=+10><b>Trachea: </b></size><br> a tube that is held open by C-shaped rings of cartilage that connects the pharynx to the bronchi",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     },
+     {
+      "path": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/CarbonDioxide_Draggable",
+      "dragPath": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/CarbonDioxide_Draggable",
+      "holdClip": "Act25_respiratory_explore_CarbonDioxide",
+      "targetPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/CarbonDioxide_Draggable/TargetCarbonDioxide_Draggable",
+      "holdCaption": "<size=+10><b>Carbon dioxide: </b></size><br> a gas that leaves the body during exhalation",
+      "isDraggable": true,
+      "returnDuration": 0.30000001192092896,
+      "returnWhenOver": false,
+      "useLocalTransform": true,
+      "targetTweenDuration": 0.30000001192092896,
+      "holdCaptionMinimumDuration": 0
+     }
+    ],
+    "scenePath": "Assets/SupplementalActivities/3D/Activities/25_RespiratorySystem/respiratorysystem.unity",
+    "audioClips": [
+     "Act25_respiratory_explore_Alveoli",
+     "Act25_respiratory_explore_Bronchi",
+     "Act25_respiratory_explore_Capillary",
+     "Act25_respiratory_explore_CarbonDioxide",
+     "Act25_respiratory_explore_Lungs",
+     "Act25_respiratory_explore_Oxygen",
+     "Act25_respiratory_explore_Trachea",
+     "Act25_respiratory_explore_WallOfAlveolus",
+     "Act25_respiratory_observe_selectNext"
+    ],
+    "exploreRoots": [
+     "RespiratoryRoot/RespSys_Activity_001",
+     "RespiratoryRoot/RespSys_Activity_002",
+     "RespiratoryRoot/RespSys_Activity_003"
+    ],
+    "animationClips": [
+     "Take 001",
+     "transition01",
+     "transition02"
+    ],
+    "scienceObjects": [
+     {
+      "name": "Oxygen",
+      "path": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/Oxygen_Draggable",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/Oxygen_Draggable",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Capillary",
+      "path": "RespiratoryRoot/RespSys_Activity_002/DraggbleRoot/capillary",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/capillary",
+      "hasTransitionAnimation": true
+     },
+     {
+      "name": "Alveoli",
+      "path": "RespiratoryRoot/RespSys_Activity_002/DraggbleRoot/Alveoli_01",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_002/Trays_002/Alveoli",
+      "hasTransitionAnimation": true
+     },
+     {
+      "name": "Wall of alveolus",
+      "path": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/WallOfAveolus",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/WallOfAveolus",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Bronchi",
+      "path": "RespiratoryRoot/RespSys_Activity_001/Bronchi",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayBronchi",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Lungs",
+      "path": "RespiratoryRoot/RespSys_Activity_001/Lungs",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayLungs",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Trachea",
+      "path": "RespiratoryRoot/RespSys_Activity_001/Trachea",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_001/Trays_001/TrayTrachea",
+      "hasTransitionAnimation": false
+     },
+     {
+      "name": "Carbon dioxide",
+      "path": "RespiratoryRoot/RespSys_Activity_003/DraggableRoot/CarbonDioxide_Draggable",
+      "trayPath": "RespiratoryRoot/RespSys_Activity_003/Trays_003/CarbonDioxide_Draggable",
+      "hasTransitionAnimation": false
+     }
+    ]
+   },
+   "status": "published",
+   "sortOrder": 2,
+   "lessonId": "f510fcd9-a0d5-408c-a215-235d1afa69b4",
+   "uploadedBy": null,
+   "createdAt": "2026-10-07T19:28:16.006Z",
+   "updatedAt": "2026-10-07T21:37:50.871Z"
+  }
+ ]
+}

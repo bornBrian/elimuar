@@ -1,0 +1,78 @@
+{
+ "observeClip": "ICT_Computer_Observe",
+ "observeLength": 102.432,
+ "captions": [
+  {
+   "text": "A computer is made of parts that work together. They take in data, process it, store it, and give out information.",
+   "duration": 9.954
+  },
+  {
+   "text": "Most of these parts live inside the system unit. Let's take off the side panel and look inside.",
+   "duration": 8.322
+  },
+  {
+   "text": "The large circuit board at the back is the motherboard. Every other part connects to it, so they can share power and data.",
+   "duration": 9.402
+  },
+  {
+   "text": "In the middle is the central processing unit, or CPU. It carries out instructions and does calculations. It is the brain of the computer.",
+   "duration": 11.754
+  },
+  {
+   "text": "The CPU gets hot as it works, so a heat sink and fan sit on top of it to carry the heat away.",
+   "duration": 7.53
+  },
+  {
+   "text": "Beside the CPU are the memory modules, called RAM. RAM holds the programs and data the computer is using right now.",
+   "duration": 9.786
+  },
+  {
+   "text": "RAM is volatile. When the power goes off, everything in it is lost.",
+   "duration": 6.786
+  },
+  {
+   "text": "Programs and files are kept for a long time on drives, like this solid-state drive and this hard disk drive. They keep their data even without power.",
+   "duration": 11.562
+  },
+  {
+   "text": "The graphics card turns data into the pictures you see on the monitor.",
+   "duration": 5.634
+  },
+  {
+   "text": "The power supply unit changes electricity from the wall socket into the steady, low voltages the parts need.",
+   "duration": 7.818
+  },
+  {
+   "text": "Fans keep the air moving through the case, so all the parts stay cool.",
+   "duration": 5.85
+  },
+  {
+   "text": "Together, these parts let the computer do its work. Now it is your turn to take them out.",
+   "duration": 8.034
+  }
+ ],
+ "cues": {
+  "intro": 0.0,
+  "open": 9.954,
+  "motherboard": 18.276,
+  "cpu": 27.678,
+  "cooler": 39.432,
+  "ram": 46.962,
+  "volatile": 56.748,
+  "storage": 63.534,
+  "gpu": 75.096,
+  "psu": 80.73,
+  "fan": 88.548,
+  "outro": 94.398
+ },
+ "holdClips": {
+  "Cooler": "ICT_Computer_Explore_Cooler",
+  "CPU": "ICT_Computer_Explore_CPU",
+  "RAM": "ICT_Computer_Explore_RAM",
+  "GPU": "ICT_Computer_Explore_GPU",
+  "PSU": "ICT_Computer_Explore_PSU",
+  "SSD": "ICT_Computer_Explore_SSD",
+  "HDD": "ICT_Computer_Explore_HDD",
+  "Fan": "ICT_Computer_Explore_Fan"
+ }
+}

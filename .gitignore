@@ -1,0 +1,121 @@
+# dependencies
+node_modules/
+.pnp/
+
+# builds
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+
+# flutter
+apps/mobile/.dart_tool/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+apps/mobile/build/
+apps/mobile/ios/Pods/
+apps/mobile/android/.gradle/
+apps/mobile/android/local.properties
+
+# AR asset binaries are large — keep them out of git, ship via the asset store
+apps/api/storage/assets/*.glb
+apps/api/storage/assets/*.gltf
+apps/api/storage/assets/*.bin
+
+# editors / os
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# local MySQL data (scripts/mysql-local.sh)
+.mysql/
+
+
+Elimu_AR_Software_Design_Document_preview.pdf
+AR_ASSET_AUTHORING_GUIDE.html
+
+# local screenshots, temp build files and the redirected Gradle home
+.elimu-tmp/
+.build-tmp/
+.tmp-shots/
+.preview/
+.tref/
+.gradle-home/
+
+# built release APKs — deliverable output, not source
+artifacts/
+
+# design references handed over for a screen-matching pass — inputs, not source
+proposed screens/
+mobile app screens/
+reference screens/
+web screens/
+# reference recordings and screenshots — read for design, never source
+screen-*.mp4
+ELIMUAR_PRESENTATION.pdf
+Elimu_Logo-removebg-preview.png
+ElimuAR fav icon.png
+ElimuAR logo.png
+.comment-strip.py
+
+# database dumps and backups are data, never source. The reviewed, hand-written
+# schema migrations in apps/api/migrations are the one exception.
+*.sql
+!apps/api/migrations/*.sql
+
+# runtime uploads — avatars, branding marks and AR bundles live in the database
+# or the asset store in production, not in git
+apps/api/storage/avatars/
+apps/api/storage/branding/
+
+# built Android packages are deliverables, not source
+*.apk
+*.aab
+
+# authoring sources for the shipped heart build. The optimised bundles that
+# actually ship live in apps/api/seed-assets; these raw scans, zips and reference
+# downloads are the provenance the docs point at, and are far too large for git.
+/interior_heart_-_high_detail.glb
+/realistic_human_heart.glb
+/realistic-heart-bundle-final-v7.zip
+/Realsitic CT-derived bundle.zip
+
+# vendored plugin build caches — Gradle writes lock and hash files on every
+# build, and a path dependency’s own pubspec.lock is generated, not authored.
+# The plugin’s source is what is versioned; these are churn.
+ElimuAR mobile app/mobile/vendor/**/android/.gradle/
+ElimuAR mobile app/mobile/vendor/**/pubspec.lock
+
+# Runtime uploads (logos, avatars, files kept when no bucket is set)
+apps/api/storage/
+# Local tools (scrcpy + adb); download from github.com/Genymobile/scrcpy
+tools/
+
+# Office lock files
+~$*
+
+# Python bytecode left by the authoring scripts
+__pycache__/
+*.pyc
+
+# personal academic submissions and study references — supporting documents, not source
+docs/IPT Report - *.docx
+docs/IPT Report - *.pdf
+docs/my_log_book.pdf
+docs/REPORT GUIDE *.pdf
+docs/presentation/* v1.docx
+
+# screenshots and photos handed over as references
+WhatsApp Image *.jpeg
+McGraw features and screens

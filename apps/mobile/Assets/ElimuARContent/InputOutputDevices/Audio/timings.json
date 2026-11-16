@@ -1,0 +1,78 @@
+{
+ "observeClip": "ICT_Devices_Observe",
+ "observeLength": 80.352,
+ "captions": [
+  {
+   "text": "A computer works in three stages: input, processing and output.",
+   "duration": 6.21
+  },
+  {
+   "text": "Input devices send data into the computer. They are how we give the computer instructions.",
+   "duration": 8.418
+  },
+  {
+   "text": "The keyboard lets us type letters, numbers and commands.",
+   "duration": 5.13
+  },
+  {
+   "text": "The mouse moves the pointer on the screen, so we can point, click and select.",
+   "duration": 6.282
+  },
+  {
+   "text": "A microphone turns our voice and other sounds into data the computer can store.",
+   "duration": 6.018
+  },
+  {
+   "text": "A webcam captures pictures and video, for example in an online class.",
+   "duration": 6.042
+  },
+  {
+   "text": "Inside the system unit, the CPU processes the data and turns it into information.",
+   "duration": 6.834
+  },
+  {
+   "text": "Output devices give that information back to us, in a form we can see, hear or hold.",
+   "duration": 7.434
+  },
+  {
+   "text": "The monitor shows text, pictures and video. It is soft copy output.",
+   "duration": 7.218
+  },
+  {
+   "text": "The printer puts information onto paper. This is called hard copy.",
+   "duration": 6.618
+  },
+  {
+   "text": "Speakers play sound, like music and voices.",
+   "duration": 4.698
+  },
+  {
+   "text": "Input goes in, processing happens inside, and output comes out. Now sort each device yourself.",
+   "duration": 9.45
+  }
+ ],
+ "cues": {
+  "intro": 0.0,
+  "input": 6.21,
+  "keyboard": 14.628,
+  "mouse": 19.758,
+  "mic": 26.04,
+  "webcam": 32.058,
+  "process": 38.1,
+  "output": 44.934,
+  "monitor": 52.368,
+  "printer": 59.586,
+  "speakers": 66.204,
+  "outro": 70.902
+ },
+ "holdClips": {
+  "Keyboard": "ICT_Devices_Explore_Keyboard",
+  "Mouse": "ICT_Devices_Explore_Mouse",
+  "Microphone": "ICT_Devices_Explore_Microphone",
+  "Webcam": "ICT_Devices_Explore_Webcam",
+  "Monitor": "ICT_Devices_Explore_Monitor",
+  "Printer": "ICT_Devices_Explore_Printer",
+  "Speakers": "ICT_Devices_Explore_Speakers",
+  "Projector": "ICT_Devices_Explore_Projector"
+ }
+}
